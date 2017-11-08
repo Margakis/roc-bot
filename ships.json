@@ -1,0 +1,6 @@
+{
+  "ships": [
+    {"name": "Wraith", "weapon": "Electron laser"},
+    {"name": "Phoenix", "weapon": "HUSKER_IKKE"}
+  ]
+}
