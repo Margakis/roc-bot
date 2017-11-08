@@ -1,8 +1,5 @@
 class Ship {
-  const name;
-  const weapon;
-  const aura;
-  const zen;
+  const name, weapon, aura, zen;
 
   constructor(name, weapon, aura, zen) {
     this.name = string(name);

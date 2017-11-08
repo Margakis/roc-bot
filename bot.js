@@ -1,6 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var Ship = require('Ship.js')
+var Ship = require('./Ship.js');
+const ships = require('./ships.json');
 
 // Configure logger settings
 logger.remove(logger.transports.Console);
@@ -44,5 +45,6 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 });
 
 function listships(){
-
+  let ship = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb')
+  return ship.name + ship.weapon + ship.aura + ship.zen;
 }
