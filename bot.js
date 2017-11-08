@@ -46,5 +46,5 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 
 function listships(){
   let ship = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb')
-  return (ship.name + ship.weapon + ship.aura + ship.zen);
+  return string(ship.name + ship.weapon + ship.aura + ship.zen);
 }
