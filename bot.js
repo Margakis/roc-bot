@@ -41,7 +41,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 bot.sendMessage({
                     to: channelID,
-                    message: listships()
+                    message: "Test" + listships()
                 });
             break;
             // Just add any case commands if you want to..
