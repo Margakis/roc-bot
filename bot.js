@@ -17,6 +17,11 @@ var bot = new Discord.Client({
    autorun: true
 });
 
+function listships(){
+  let ship = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb')
+  return string(ship.name + ship.weapon + ship.aura + ship.zen);
+}
+
 bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
@@ -43,8 +48,3 @@ bot.on('message', function (user, userID, channelID, message, evt) {
          }
      }
 });
-
-function listships(){
-  let ship = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb')
-  return string(ship.name + ship.weapon + ship.aura + ship.zen);
-}
