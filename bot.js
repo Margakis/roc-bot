@@ -33,7 +33,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 bot.sendMessage({
                     to: channelID,
-                    message: '<Loads of ships!!!>\n<Even more ships!!!>'
+                    message: '<Loads of ships!>\n<Even more ships!>'
                 });
             break;
             // Just add any case commands if you want to..
