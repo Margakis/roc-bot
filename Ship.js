@@ -6,4 +6,4 @@ class Ship{
     this.zen = string(zen);
   }
 }
-module.exports = Ship; 
+module.exports.Ship = Ship; 
