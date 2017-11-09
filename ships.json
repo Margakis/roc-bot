@@ -12,14 +12,32 @@
     {
       "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Juggernaut", "weapon": "Devastator Cannon", "aura": "Bullet EMP", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Tillat'or", "weapon": "Gatling Cannon", "aura": "Barrier", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Elyon", "weapon": "Blaze Laser", "aura": "Laser Storm", "zen": "Kappa Drive"
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
