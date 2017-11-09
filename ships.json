@@ -7,13 +7,13 @@
       "name": "NC-150", "weapon": "Plasma cannon", "aura": "Stun EMP", "zen": "Personal shield"
     },
     {
-      "name": "Tar'cah", "weapon": "Storm blaster", "aura": "Point defense", "zen": "Kappa drive"
+      "name": "Yoth-Hola", "weapon": "Vortex Howler", "aura": "Point Defense", "zen": "Personal Shield"
     },
     {
-      "name": "Veil", "weapon": "Fusion laser", "aura": "Bullet EMP", "zen": "Mega bomb"
+      "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
     },
     {
-      "name": "Krillou", "weapon": "Photon bombs", "aura": "Stun EMP", "zen": "Mega bomb"
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -27,6 +27,10 @@
     {
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
+     {
+      "name": "Baqlor", "weapon": "Serrator Laser", "aura": "Chrono Field", "zen": "Mega Bomb"
+    },
+    
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
     },
