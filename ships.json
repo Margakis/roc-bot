@@ -12,14 +12,41 @@
     {
       "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Ogon", "weapon": "Photon Array", "aura": "Laser Storm", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Vuxine", "weapon": "Vortex Launcher", "aura": "Point Defence", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Phototurius", "weapon": "Photon Charge", "aura": "Stun EMP", "zen": "Mega Laser"
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
