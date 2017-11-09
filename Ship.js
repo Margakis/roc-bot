@@ -8,9 +8,9 @@ class Ship{
     this.zen = String(zen);
   }
   toString(){
-    string = ""
+    var string = "";
     for (var ship in file.ships) {
-      string = string + "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*"); 
+      string = string + "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
     }
 
     return string;
