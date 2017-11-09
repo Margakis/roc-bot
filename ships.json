@@ -22,13 +22,13 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "Aurora", "weapon": "Quantum Nuke", "aura": "Bullet EMP", "zen": "Teleport"
+      "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
     },
     {
-      "name": "Heechi", "weapon": "Quantum Seekers", "aura": "Barrier", "zen": "Kappa Drive"
+      "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
     {
-      "name": "Orion", "weapon": "Photon Scatter", "aura": "Point Defense", "zen": "Teleport"
+      "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
     },
     {
       "name": "Exarch", "weapon": "Phase Prisms", "aura": "Vorpal Lance", "zen": "Mega Laser"
