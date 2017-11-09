@@ -1,9 +1,9 @@
 class Ship {
 
-  constructor(namee, weeapon, auura, zeen) {
-    this.name = string(namee);
-    this.weapon = string(weeapon);
-    this.aura = string(auura);
-    this.zen = string(zeen);
+  constructor(name, weapon, aura, zen) {
+    this.name = string(name);
+    this.weapon = string(weapon);
+    this.aura = string(aura);
+    this.zen = string(zen);
   }
 }
