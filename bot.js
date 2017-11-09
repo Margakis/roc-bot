@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var Ship = require('./Ship.js');
+const Ship = require('./Ship.js');
 const ships = require('./ships.json');
 
 // Configure logger settings
@@ -26,6 +26,7 @@ bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ');
     logger.info(bot.username + ' - (' + bot.id + ')');
+    logger.info(listships());
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {
