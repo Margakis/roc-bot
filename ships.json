@@ -13,13 +13,13 @@
       "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Cinniri", "weapon": "Neutron Launcher", "aura": "Stun EMP", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Phoenix", "weapon": "Helix Cannon", "aura": "Bullet EMP", "zen": "Personal Shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Buhloo", "weapon": "Quantum Prisms", "aura": "Laser Storm", "zen": "Mega Bomb"
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
