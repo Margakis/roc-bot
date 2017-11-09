@@ -22,13 +22,22 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Aurora", "weapon": "Quantum Nuke", "aura": "Bullet EMP", "zen": "Teleport"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
+    },
+    {
+      "name": "Njörun", "weapon": "Wave Cannons", "aura": "Chrono Field", "zen": "Personal Shield"
+    },
+    {
+      "name": "", "weapon": "", "aura": "", "zen": ""
+    },
+    {
+      "name": "Corsair", "weapon": "Rocket Pods", "aura": "Missile Swarm", "zen": "Tracking Minigun"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
