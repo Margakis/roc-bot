@@ -28,17 +28,16 @@
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
      {
-      "name": "Baqlor", "weapon": "Serrator Laser", "aura": "Chrono Field", "zen": "Mega Bomb"
+      "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
-
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
     },
     {
-      "name": "Exarch", "weapon": "Phase Prisms", "aura": "Vorpal Lance", "zen": "Mega Laser"
+      "name": "Exarch", "weapon": "Phase prisms", "aura": "Vorpal lance", "zen": "Mega laser"
     },
     {
-      "name": "Njörun", "weapon": "Wave Cannons", "aura": "Chrono Field", "zen": "Personal Shield"
+      "name": "Njörun", "weapon": "Wave cannons", "aura": "Chrono field", "zen": "Personal shield"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -47,13 +46,13 @@
       "name": "Corsair", "weapon": "Rocket Pods", "aura": "Missile Swarm", "zen": "Tracking Minigun"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Antioch", "weapon": "Proton crystallizer", "aura": "Vorpal lance", "zen": "Personal shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "UHB", "weapon": "Blast laser", "aura": "Vorpal lance", "zen": "Reflex EMP"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Trinity", "weapon": "Warp ripper", "aura": "Chrono field", "zen": "Trinity teleport"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
