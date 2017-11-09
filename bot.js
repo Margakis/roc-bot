@@ -18,7 +18,7 @@ var bot = new Discord.Client({
 });
 
 function listships(){
-  var ship = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb');
+  var ship = Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb');
   return string(ship.name + ship.weapon + ship.aura + ship.zen);
 }
 
@@ -42,7 +42,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 bot.sendMessage({
                     to: channelID,
-                    message: "Test" + listships()
+                    message: "Test: \n" + listships()
                 });
             break;
             // Just add any case commands if you want to..
