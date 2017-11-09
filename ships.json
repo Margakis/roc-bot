@@ -25,10 +25,13 @@
       "name": "Aurora", "weapon": "Quantum Nuke", "aura": "Bullet EMP", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Heechi", "weapon": "Quantum Seekers", "aura": "Barrier", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Orion", "weapon": "Photon Scatter", "aura": "Point Defense", "zen": "Teleport"
+    },
+    {
+      "name": "Exarch", "weapon": "Phase Prisms", "aura": "Vorpal Lance", "zen": "Mega Laser"
     },
     {
       "name": "Njörun", "weapon": "Wave Cannons", "aura": "Chrono Field", "zen": "Personal Shield"
