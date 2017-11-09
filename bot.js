@@ -17,7 +17,7 @@ var bot = new Discord.Client({
 
 function listships(){
   var wraith = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb');
-  return String(wraith.name + wraith.weapon + wraith.aura + wraith.zen);
+  return wraith.toString();
 }
 
 bot.on('ready', function (evt) {

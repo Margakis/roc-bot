@@ -5,5 +5,9 @@ class Ship{
     this.aura = String(aura);
     this.zen = String(zen);
   }
+  toString(){
+    return (name+" Weapon: " + weapon +", Aura: " + aura + ", Zen: " + zen);
+  }
 }
+
  module.exports = Ship;
