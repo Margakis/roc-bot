@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-const Ship = require('./Ship.js');
+var Ship = require('./Ship.js');
 const ships = require('./ships.json');
 
 // Configure logger settings
