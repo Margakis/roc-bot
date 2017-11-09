@@ -6,4 +6,6 @@ class Ship {
     this.aura = string(aura);
     this.zen = string(zen);
   }
+  
+  module.exports.Ship = Ship;
 }
