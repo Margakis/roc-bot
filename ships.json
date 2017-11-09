@@ -12,14 +12,23 @@
     {
       "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Czar", "weapon": "Fission Slammer", "aura": "Stun EMP", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Havoc", "weapon": "Mass Driver", "aura": "Laser Storm", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Geist", "weapon": "Quantum Blast", "aura": "Missile Swarm", "zen": "Personal Shield"
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
