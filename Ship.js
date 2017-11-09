@@ -8,12 +8,12 @@ class Ship{
     this.zen = String(zen);
   }
   toString(){
-    var string = "";
+    var list = "";
     for (var ship in file.ships) {
-      string = string + "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+      list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
     }
-
     return string;
   }
 }
+
 module.exports = Ship;
