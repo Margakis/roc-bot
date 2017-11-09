@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 var logger = require('winston');
-var ship = require('Ship');
+var ship = require('./Ship.js');
 const ships = require('./ships.json');
 
 logger.remove(logger.transports.Console);
