@@ -1,37 +1,37 @@
 {
   "ships": [
     {
-      "num": 0, "name": "Shinova", "weapon": "Tachyon cannon", "aura": "Bullet EMP", "zen": "Kappa drive"
+      "name": "Shinova", "weapon": "Tachyon cannon", "aura": "Bullet EMP", "zen": "Kappa drive"
     },
     {
-      "num": 1, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 2, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 3, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 4, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 5, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 6, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 7, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 8, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 9, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "num": 10, "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "", "weapon": "", "aura": "", "zen": ""
     }
   ]
 }
