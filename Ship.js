@@ -17,7 +17,7 @@ function allships() {
   for (var ship in file.ships) {
     list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
   }
-  return string;
+  return list;
 }
 
 module.exports = Ship;
