@@ -8,7 +8,7 @@ class Ship{
     this.zen = String(zen);
   }
   toString(){
-    return String(file.ships[0]);
+    return file.ships[0].name;
     //return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
   }
 }
