@@ -1,3 +1,5 @@
+var file = require('./ships.json');
+
 class Ship{
   constructor(name, weapon, aura, zen) {
     this.name = String(name);
@@ -6,8 +8,8 @@ class Ship{
     this.zen = String(zen);
   }
   toString(){
-    return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+    return String(file.ships[0]);
+    //return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
   }
 }
-
- module.exports = Ship;
+module.exports = Ship;
