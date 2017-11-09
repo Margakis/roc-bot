@@ -6,7 +6,7 @@ class Ship{
     this.zen = String(zen);
   }
   toString(){
-    return (name+" Weapon: " + weapon +", Aura: " + aura + ", Zen: " + zen);
+    return (this.name+" Weapon: " + this.weapon +", Aura: " + this.aura + ", Zen: " + this.zen);
   }
 }
 
