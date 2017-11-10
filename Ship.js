@@ -1,4 +1,4 @@
-module.exports {
+module.exports = {
   var file = require('./ships.json');
 
   class Ship{
