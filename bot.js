@@ -19,20 +19,11 @@ function listships(){
   return allships();
 }
 
-function allships() {
-  var list = "List of all ship:\n";
-  for (var ship in allshipsf.ships) {
-    if(String(ship.name) != ''){
-      list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
-    }
-  }
-
-  return list;
-}
-
 bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ' + bot.username + ' - (' + bot.id + ')');
+    wraith = new Ship("Wraith", "Electron laser", "Vorpal lance", "Mega bomb");
+    logger.info('Ship-class test: '+wraith.tostring()); 
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {
