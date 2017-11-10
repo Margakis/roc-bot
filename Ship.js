@@ -7,7 +7,7 @@ class Ship {
     this.zen = String(zen);
   };
 
-  tostring = function(){
+  function tostring(){
     return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
   }
 }
