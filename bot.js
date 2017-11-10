@@ -1,6 +1,7 @@
 var Discord = require('discord.io');
 var logger = require('winston');
 var Ship = require('./Ship');
+var allshipsf = require('./ships.json');
 
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {
@@ -15,7 +16,15 @@ var bot = new Discord.Client({
 });
 
 function listships(){
-  return listships();
+
+}
+
+function allships() {
+  var list = "";
+  for (var ship in allshipsf.ships) {
+    list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+  }
+  return list;
 }
 
 bot.on('ready', function (evt) {

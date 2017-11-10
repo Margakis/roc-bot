@@ -13,13 +13,4 @@ class Ship{
   }
 }
 
-function allships() {
-  var list = "";
-  for (var ship in file.ships) {
-    list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
-  }
-  return list;
-}
-
 module.exports = Ship;
-module.exports = allships;
