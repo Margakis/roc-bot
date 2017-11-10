@@ -21,9 +21,7 @@ function listships(){
 
 bot.on('ready', function (evt) {
     logger.info('Connected');
-    logger.info('Logged in as: ');
-    logger.info(bot.username + ' - (' + bot.id + ')');
-    logger.info(listships());
+    logger.info('Logged in as: ' + bot.username + ' - (' + bot.id + ')');        
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {

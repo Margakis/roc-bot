@@ -7,105 +7,61 @@
       "name": "NC-150", "weapon": "Plasma cannon", "aura": "Stun EMP", "zen": "Personal shield"
     },
     {
-      "name": "Yoth-Hola", "weapon": "Vortex Howler", "aura": "Point Defense", "zen": "Personal Shield"
+      "name": "Yoth-Hola", "weapon": "Vortex howler", "aura": "Point defense", "zen": "Personal shield"
     },
     {
-      "name": "Trireme", "weapon": "Burst Pulsar", "aura": "Missile Swarm", "zen": "Teleport"
-    },
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    {
-      "name": "Czar", "weapon": "Fission Slammer", "aura": "Stun EMP", "zen": "Teleport"
+      "name": "Trireme", "weapon": "Burst pulsar", "aura": "Missile swarm", "zen": "Teleport"
     },
     {
-      "name": "Havoc", "weapon": "Mass Driver", "aura": "Laser Storm", "zen": "Mega Laser"
+      "name": "Czar", "weapon": "Fission slammer", "aura": "Stun EMP", "zen": "Teleport"
     },
     {
-      "name": "Geist", "weapon": "Quantum Blast", "aura": "Missile Swarm", "zen": "Personal Shield"
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    {
-      "name": "Juggernaut", "weapon": "Devastator Cannon", "aura": "Bullet EMP", "zen": "Mega Bomb"
+      "name": "Havoc", "weapon": "Mass driver", "aura": "Laser storm", "zen": "Mega laser"
     },
     {
-      "name": "Tillat'or", "weapon": "Gatling Cannon", "aura": "Barrier", "zen": "Teleport"
+      "name": "Geist", "weapon": "Quantum blast", "aura": "Missile swarm", "zen": "Personal shield"
     },
     {
-      "name": "Elyon", "weapon": "Blaze Laser", "aura": "Laser Storm", "zen": "Kappa Drive"
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    {
-      "name": "Ogon", "weapon": "Photon Array", "aura": "Laser Storm", "zen": "Kappa Drive"
+      "name": "Juggernaut", "weapon": "Devastator cannon", "aura": "Bullet EMP", "zen": "Mega bomb"
     },
     {
-      "name": "Vuxine", "weapon": "Vortex Launcher", "aura": "Point Defence", "zen": "Kappa Drive"
+      "name": "Tillat'or", "weapon": "Gatling cannon", "aura": "Barrier", "zen": "Teleport"
     },
     {
-      "name": "Phototurius", "weapon": "Photon Charge", "aura": "Stun EMP", "zen": "Mega Laser"
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-    {
-      "name": "Cinniri", "weapon": "Neutron Launcher", "aura": "Stun EMP", "zen": "Mega Laser"
+      "name": "Elyon", "weapon": "Blaze laser", "aura": "Laser storm", "zen": "Kappa drive"
     },
     {
-      "name": "Phoenix", "weapon": "Helix Cannon", "aura": "Bullet EMP", "zen": "Personal Shield"
+      "name": "Ogon", "weapon": "Photon array", "aura": "Laser storm", "zen": "Kappa drive"
     },
     {
-      "name": "Buhloo", "weapon": "Quantum Prisms", "aura": "Laser Storm", "zen": "Mega Bomb"
+      "name": "Vuxine", "weapon": "Vortex launcher", "aura": "Point defence", "zen": "Kappa drive"
     },
     {
-      "name": "Xaniea", "weapon": "Photon Pods", "aura": "Laser Storm", "zen": "Teleport"
+      "name": "Phototurius", "weapon": "Photon charge", "aura": "Stun EMP", "zen": "Mega laser"
     },
     {
-      "name": "Arietis", "weapon": "Particle Disruptor", "aura": "Point Defense", "zen": "Mega Laser"
+      "name": "Cinniri", "weapon": "Neutron launcher", "aura": "Stun EMP", "zen": "Mega laser"
     },
     {
-      "name": "Atlas", "weapon": "Autocannon", "aura": "Missile Swarm", "zen": "Personal Shield"
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    {
-      "name": "Essin", "weapon": "Cyclone Cannon", "aura": "Laser Storm", "zen": "Personal Shield"
+      "name": "Phoenix", "weapon": "Helix cannon", "aura": "Bullet EMP", "zen": "Personal shield"
     },
     {
-      "name": "EXO4239", "weapon": "Meson Projectors", "aura": "Missile Swarm", "zen": "Mega Laser"
+      "name": "Buhloo", "weapon": "Quantum prisms", "aura": "Laser storm", "zen": "Mega bomb"
+    },
+    {
+      "name": "Xaniea", "weapon": "Photon pods", "aura": "Laser storm", "zen": "Teleport"
+    },
+    {
+      "name": "Arietis", "weapon": "Particle disruptor", "aura": "Point defense", "zen": "Mega Laser"
+    },
+    {
+      "name": "Atlas", "weapon": "Autocannon", "aura": "Missile swarm", "zen": "Personal shield"
+    },
+    {
+      "name": "Essin", "weapon": "Cyclone cannon", "aura": "Laser storm", "zen": "Personal shield"
+    },
+    {
+      "name": "EXO4239", "weapon": "Meson projectors", "aura": "Missile swarm", "zen": "Mega laser"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -116,7 +72,7 @@
     {
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
-     {
+    {
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
     {
@@ -132,7 +88,7 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "Corsair", "weapon": "Rocket Pods", "aura": "Missile Swarm", "zen": "Tracking Minigun"
+      "name": "Corsair", "weapon": "Rocket pods", "aura": "Missile swarm", "zen": "Tracking minigun"
     },
     {
       "name": "Antioch", "weapon": "Proton crystallizer", "aura": "Vorpal lance", "zen": "Personal shield"
