@@ -43,7 +43,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         switch(cmd) {
             case 'ships':
                 logger.info('Recieved cmd: ' + cmd
-                        + '\nWith the arguments: ' + args)
+                        + ', With the arguments: ' + args)
                 bot.sendMessage({
                     to: channelID,
                     message: (
