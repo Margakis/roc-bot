@@ -23,7 +23,7 @@ function getallships() {
 }
 
 class AllShips{  
-  static SHIPS() {return ships};
+  static LIST() {return ships};
   constructor(){
     this.ships = {};
     for (var ship in allshipsf.ships) {
