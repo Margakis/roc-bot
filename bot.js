@@ -20,9 +20,11 @@ function listships(){
 }
 
 function allships() {
-  var list = "";
+  var list = "List of all ship:\n";
   for (var ship in allshipsf.ships) {
-    list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+    if(ship.name != ''){
+      list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+    }
   }
   return list;
 }
