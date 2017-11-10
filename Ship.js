@@ -1,6 +1,6 @@
 var file = require('./ships.json');
 module.exports = {
-  class Ship{
+  Ship: class{
     constructor(name, weapon, aura, zen) {
       this.name = String(name);
       this.weapon = String(weapon);
@@ -8,12 +8,12 @@ module.exports = {
       this.zen = String(zen);
     }
 
-    toString(){
+    toString: function(){
       return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
     }
   }
   
-  allships = function () {
+  allships: function () {
     var list = "List of all ship:\n";
     for (var ship in allshipsf.ships) {
       if(String(ship.name) != ''){
