@@ -48,6 +48,16 @@
     
     
     
+
+    {
+      "name": "Xaniea", "weapon": "Photon Pods", "aura": "Laser Storm", "zen": "Teleport"
+    },
+    {
+      "name": "Arietis", "weapon": "Particle Disruptor", "aura": "Point Defense", "zen": "Mega Laser"
+    },
+    {
+      "name": "Atlas", "weapon": "Autocannon", "aura": "Missile Swarm", "zen": "Personal Shield"
+
     
     
     
@@ -65,6 +75,7 @@
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
+
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
