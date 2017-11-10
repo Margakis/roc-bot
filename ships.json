@@ -21,6 +21,14 @@
     
     
     
+    {
+      "name": "Czar", "weapon": "Fission Slammer", "aura": "Stun EMP", "zen": "Teleport"
+    },
+    {
+      "name": "Havoc", "weapon": "Mass Driver", "aura": "Laser Storm", "zen": "Mega Laser"
+    },
+    {
+      "name": "Geist", "weapon": "Quantum Blast", "aura": "Missile Swarm", "zen": "Personal Shield"
     
     
     
@@ -30,6 +38,14 @@
     
     
     
+    {
+      "name": "Juggernaut", "weapon": "Devastator Cannon", "aura": "Bullet EMP", "zen": "Mega Bomb"
+    },
+    {
+      "name": "Tillat'or", "weapon": "Gatling Cannon", "aura": "Barrier", "zen": "Teleport"
+    },
+    {
+      "name": "Elyon", "weapon": "Blaze Laser", "aura": "Laser Storm", "zen": "Kappa Drive"
     
     
     
@@ -39,6 +55,15 @@
     
     
     
+    {
+      "name": "Ogon", "weapon": "Photon Array", "aura": "Laser Storm", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Vuxine", "weapon": "Vortex Launcher", "aura": "Point Defence", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Phototurius", "weapon": "Photon Charge", "aura": "Stun EMP", "zen": "Mega Laser"
+
     
     
     
@@ -92,17 +117,16 @@
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
      {
-      "name": "Baqlor", "weapon": "Serrator Laser", "aura": "Chrono Field", "zen": "Mega Bomb"
+      "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
-
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
     },
     {
-      "name": "Exarch", "weapon": "Phase Prisms", "aura": "Vorpal Lance", "zen": "Mega Laser"
+      "name": "Exarch", "weapon": "Phase prisms", "aura": "Vorpal lance", "zen": "Mega laser"
     },
     {
-      "name": "Njörun", "weapon": "Wave Cannons", "aura": "Chrono Field", "zen": "Personal Shield"
+      "name": "Njörun", "weapon": "Wave cannons", "aura": "Chrono field", "zen": "Personal shield"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -111,25 +135,25 @@
       "name": "Corsair", "weapon": "Rocket Pods", "aura": "Missile Swarm", "zen": "Tracking Minigun"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Antioch", "weapon": "Proton crystallizer", "aura": "Vorpal lance", "zen": "Personal shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "UHB", "weapon": "Blast laser", "aura": "Vorpal lance", "zen": "Reflex EMP"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Trinity", "weapon": "Warp ripper", "aura": "Chrono field", "zen": "Trinity teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Wraith", "weapon": "Electron laser", "aura": "Vorpal lance", "zen": "Mega bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "X-81", "weapon": "Aim-540 mantis", "aura": "Ion cannon", "zen": "Mega laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Scuuxun", "weapon": "T'kari spikes", "aura": "Laser storm", "zen": "Reflex EMP"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Shogun", "weapon": "Phantom katana", "aura": "Blade storm", "zen": "Reflex EMP"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
