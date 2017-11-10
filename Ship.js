@@ -8,7 +8,7 @@ module.exports = {
       this.zen = String(zen);
     };
 
-    toString = function(){
+    function tostring(){
       return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
     }
   },
