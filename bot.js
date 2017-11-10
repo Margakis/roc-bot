@@ -23,7 +23,7 @@ function allships() {
   var list = "List of all ship:\n";
   for (var ship in allshipsf.ships) {
     if(String(ship.name) != ''){
-      list += "\n" + ("**" + String(this.name)+":** Weapon: *" + String(this.weapon) +"*, Aura: *" + String(this.aura) + "*, Zen: *" + String(this.zen) + "*");
+      list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
     }
   }
   return list;
@@ -43,7 +43,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
         switch(cmd) {
             case 'ships':
                 logger.info('Recieved cmd: ' + cmd
-                        + 'With the arguments:' + args)
+                        + '\nWith the arguments: ' + args)
                 bot.sendMessage({
                     to: channelID,
                     message: (
