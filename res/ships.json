@@ -7,7 +7,7 @@
       "name": "NC-150", "weapon": "Plasma cannon", "aura": "Stun EMP", "zen": "Personal shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Tar'cah", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -25,13 +25,13 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Tempest", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "Yoth-Hola", "weapon": "Vortex howler", "aura": "Point defense", "zen": "Personal shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Razor VI", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -46,7 +46,7 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Wrackr", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "Trireme", "weapon": "Burst pulsar", "aura": "Missile swarm", "zen": "Teleport"
@@ -115,7 +115,7 @@
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Prime X", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -124,13 +124,16 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Zephyr", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "502-Q8", "weapon": "", "aura": "", "zen": ""
+    },
+    {
+      "name": "Dragonfly", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
@@ -160,10 +163,7 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
-    },
-    {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Torrent", "weapon": "", "aura": "", "zen": ""
     },
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
