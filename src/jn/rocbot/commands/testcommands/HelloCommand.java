@@ -1,9 +1,10 @@
-package jn.rocbot.commands;
+package jn.rocbot.commands.testcommands;
 
+import jn.rocbot.commands.Command;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
-public class PingCommand implements Command {
-    private final String HELP = "Usage: \"!ping\"";
+public class HelloCommand implements Command {
+    private final static String HELP = "Usage: !Hello";
 
     @Override
     public boolean called(String[] args, MessageReceivedEvent event) {
@@ -12,7 +13,7 @@ public class PingCommand implements Command {
 
     @Override
     public void action(String[] args, MessageReceivedEvent event) {
-        event.getTextChannel().sendMessage("Pong!")
+        event.getTextChannel().sendMessage("Hello!").complete();
     }
 
     @Override
