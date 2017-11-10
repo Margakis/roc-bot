@@ -33,7 +33,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 bot.sendMessage({
                     to: channelID,
-                    message: "Test: \n" + listships()
+                    message: listships()
                 });
             break;
          }

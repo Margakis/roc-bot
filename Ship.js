@@ -7,6 +7,7 @@ class Ship{
     this.aura = String(aura);
     this.zen = String(zen);
   }
+
   toString(){
     return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
   }
