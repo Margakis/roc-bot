@@ -10,43 +10,43 @@
       "name": "Tar'cah", "weapon": "Storm Blaster", "aura": "Point Defence", "zen": "Kappa Drive"
     },
     {
-      "name": "Veil", "weapon": "Fusion Laser", "aura": "Bullet EMP", "zen": "Mega Bomb"
+      "name": "Veil", "weapon": "Fusion Laser", "aura": "Bullet EMP", "zen": "Mega bomb"
     },
     {
-      "name": "Krillou", "weapon": "Photon Bombs", "aura": "Stun EMP", "zen": "Mega Bomb"
+      "name": "Krillou", "weapon": "Photon bombs", "aura": "Stun EMP", "zen": "Mega bomb"
     },
     {
-      "name": "Jericho", "weapon": "Inferno Seekers", "aura": "Bullet EMP", "zen": "Personal Shield"
+      "name": "Jericho", "weapon": "Inferno seekers", "aura": "Bullet EMP", "zen": "Personal shield"
     },
     {
-      "name": "Fujin", "weapon": "Quantum Beam", "aura": "Laser Storm", "zen": "Mega Laser"
+      "name": "Fujin", "weapon": "Quantum beam", "aura": "Laser storm", "zen": "Mega laser"
     },
     {
-      "name": "Jn'dur", "weapon": "Plasma Diffuser", "aura": "Barrier", "zen": "Mega Bomb"
+      "name": "Jn'dur", "weapon": "Plasma diffuser", "aura": "Barrier", "zen": "Mega bomb"
     },
     {
-      "name": "Tempest", "weapon": "Ion Crystalizer", "aura": "Bullet EMP", "zen": "Mega Laser"
+      "name": "Tempest", "weapon": "Ion crystalizer", "aura": "Bullet EMP", "zen": "Mega laser"
     },
     {
       "name": "Yoth-Hola", "weapon": "Vortex howler", "aura": "Point defense", "zen": "Personal shield"
     },
     {
-      "name": "Razor VI", "weapon": "Phase Disruptor", "aura": "Barrier", "zen": "Mega Laser"
+      "name": "Razor VI", "weapon": "Phase disruptor", "aura": "Barrier", "zen": "Mega laser"
     },
     {
-      "name": "Mist Star", "weapon": "Flux Seekers", "aura": "Stun EMP", "zen": "Kappa Drive"
+      "name": "Mist star", "weapon": "Flux seekers", "aura": "Stun EMP", "zen": "Kappa drive"
     },
     {
-      "name": "Proxymar", "weapon": "Lightning Conduit", "aura": "Missile Swarm", "zen": "Mega Bomb"
+      "name": "Proxymar", "weapon": "Lightning conduit", "aura": "Missile swarm", "zen": "Mega bomb"
     },
     {
-      "name": "Oran", "weapon": "Meson Laser", "aura": "Stun EMP", "zen": "Kappa Drive"
+      "name": "Oran", "weapon": "Meson laser", "aura": "Stun EMP", "zen": "Kappa drive"
     },
     {
-      "name": "Kada Veni", "weapon": "Pulse Battery", "aura": "Barrier", "zen": "Mega Bomb"
+      "name": "Kada veni", "weapon": "Pulse battery", "aura": "Barrier", "zen": "Mega bomb"
     },
     {
-      "name": "Wrackr", "weapon": "Seismic Blaster", "aura": "Point Defence", "zen": "Mega Bomb"
+      "name": "Wrackr", "weapon": "Seismic blaster", "aura": "Point defence", "zen": "Mega bomb"
     },
     {
       "name": "Trireme", "weapon": "Burst pulsar", "aura": "Missile swarm", "zen": "Teleport"
@@ -115,55 +115,55 @@
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
     {
-      "name": "Prime X", "weapon": "Vulcan", "aura": "Missile Swarm", "zen": "Teleport"
+      "name": "Prime X", "weapon": "Vulcan", "aura": "Missile swarm", "zen": "Teleport"
     },
     {
-      "name": "Sakura", "weapon": "Edge Projector", "aura": "Barrier", "zen": "Teleport"
+      "name": "Sakura", "weapon": "Edge projector", "aura": "Barrier", "zen": "Teleport"
     },
     {
-      "name": "Vani-Vith", "weapon": "Spark Fusor", "aura": "Vorpal Lance", "zen": "Teleport"
+      "name": "Vani-Vith", "weapon": "Spark fusor", "aura": "Vorpal lance", "zen": "Teleport"
     },
     {
-      "name": "Zephyr", "weapon": "Photon Rails", "aura": "Point Defence", "zen": "Kappa Drive"
+      "name": "Zephyr", "weapon": "Photon rails", "aura": "Point defence", "zen": "Kappa drive"
     },
     {
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
     {
-      "name": "502-Q8", "weapon": "Plasma Compresser", "aura": "Phalanx", "zen": "Mega Laser"
+      "name": "502-Q8", "weapon": "Plasma compresser", "aura": "Phalanx", "zen": "Mega laser"
     },
     {
-      "name": "Dragonfly", "weapon": "Twin Miniguns", "aura": "Ion Cannon", "zen": "Mega Bomb"
+      "name": "Dragonfly", "weapon": "Twin miniguns", "aura": "Ion cannon", "zen": "Mega bomb"
     },
     {
-      "name": "Hime", "weapon": "Spirit Lash", "aura": "Chrono Field", "zen": "Mega Laser"
+      "name": "Hime", "weapon": "Spirit lash", "aura": "Chrono field", "zen": "Mega laser"
     },
     {
-      "name": "Hunter", "weapon": "Hyper Blaster", "aura": "Phalanx", "zen": "Teleport"
+      "name": "Hunter", "weapon": "Hyper blaster", "aura": "Phalanx", "zen": "Teleport"
     },
     {
-      "name": "Gladius", "weapon": "Plasma Missiles", "aura": "Vorpal Lance", "zen": "Kappa Drive"
+      "name": "Gladius", "weapon": "Plasma missiles", "aura": "Vorpal lance", "zen": "Kappa drive"
     },
     {
-      "name": "Lokie", "weapon": "Tremor Field", "aura": "Laser Storm", "zen": "Personal Shield"
+      "name": "Lokie", "weapon": "Tremor field", "aura": "Laser storm", "zen": "Personal shield"
     },
     {
-      "name": "Barret", "weapon": "Boson Cannon", "aura": "Ion Cannon", "zen": "Teleport"
+      "name": "Barret", "weapon": "Boson cannon", "aura": "Ion cannon", "zen": "Teleport"
     },
     {
-      "name": "Saber", "weapon": "Nova Blaster", "aura": "Vorpal Lance", "zen": "Reflex EMP"
+      "name": "Saber", "weapon": "Nova blaster", "aura": "Vorpal lance", "zen": "Reflex EMP"
     },
     {
-      "name": "Valkyrie", "weapon": "Tachyon Projector", "aura": "Phalanx", "zen": "Mega Bomb"
+      "name": "Valkyrie", "weapon": "Tachyon projector", "aura": "Phalanx", "zen": "Mega bomb"
     },
     {
-      "name": "Proteus", "weapon": "Photon Detonator", "aura": "Point Defence", "zen": "Mega Laser"
+      "name": "Proteus", "weapon": "Photon detonator", "aura": "Point defence", "zen": "Mega laser"
     },
     {
-      "name": "Yigothu", "weapon": "Zatha Probes", "aura": "Chrono Field", "zen": "Reflex EMP"
+      "name": "Yigothu", "weapon": "Zatha probes", "aura": "Chrono field", "zen": "Reflex EMP"
     },
     {
-      "name": "Torrent", "weapon": "Quantum Stream", "aura": "Stun EMP", "zen": "Personal Shield"
+      "name": "Torrent", "weapon": "Quantum stream", "aura": "Stun EMP", "zen": "Personal shield"
     },
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"

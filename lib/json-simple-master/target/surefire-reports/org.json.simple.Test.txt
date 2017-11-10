@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.json.simple.Test
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in org.json.simple.Test
+testEncode(org.json.simple.Test)  Time elapsed: 0.017 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<["abc\u0010a[\]/",123,222.123,true]> but was:<["abc\u0010a[]/",123,222.123,true]>
+	at org.json.simple.Test.testEncode(Test.java:309)
+

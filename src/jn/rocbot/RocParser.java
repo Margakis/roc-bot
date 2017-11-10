@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class RocParser {
-
     public CommandContainer parse(String rw, MessageReceivedEvent event){
         ArrayList<String> split = new ArrayList<>();
         String raw = rw;
