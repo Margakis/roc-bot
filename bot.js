@@ -15,13 +15,12 @@ var bot = new Discord.Client({
 });
 
 function listships(){
-  var wraith = new Ship('Wraith', 'Electron laser', 'Vorpal lance', 'Mega bomb');
-  return wraith.toString();
+  return listships();
 }
 
 bot.on('ready', function (evt) {
     logger.info('Connected');
-    logger.info('Logged in as: ' + bot.username + ' - (' + bot.id + ')');        
+    logger.info('Logged in as: ' + bot.username + ' - (' + bot.id + ')');
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {
