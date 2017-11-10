@@ -26,6 +26,7 @@ function allships() {
       list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
     }
   }
+
   return list;
 }
 
@@ -45,10 +46,15 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 logger.info('Recieved cmd: ' + cmd
                         + ', With the arguments: ' + args)
                 bot.sendMessage({
+                  var list = "List of all ship:\n";
+                  for (var ship in allshipsf.ships) {
+                    if(String(ship.name) != ''){
+                      list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
+                    }
+
                     to: channelID,
                     message: (
-                      "Test:\n"
-                      + listships()
+                      "Test:\n" + list                 
                     )
                 });
             break;
