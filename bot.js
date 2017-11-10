@@ -22,8 +22,8 @@ function listships(){
 function allships() {
   var list = "List of all ship:\n";
   for (var ship in allshipsf.ships) {
-    if(ship.name != ''){
-      list += "\n" + ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
+    if(String(ship.name) != ''){
+      list += "\n" + ("**" + String(this.name)+":** Weapon: *" + String(this.weapon) +"*, Aura: *" + String(this.aura) + "*, Zen: *" + String(this.zen) + "*");
     }
   }
   return list;
@@ -44,7 +44,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 bot.sendMessage({
                     to: channelID,
-                    message: listships();
+                    message: listships()
                 });
             break;
          }
