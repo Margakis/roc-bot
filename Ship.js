@@ -23,14 +23,15 @@ function getallships() {
 }
 
 class AllShips{
-  static var SHIPS = [];
+  this.ships = {};
+  static SHIPS() {return ships};
   constructor(){
     for (var ship in allshipsf.ships) {
       if(String(ship.name) != ''){
-        SHIPS.push(new Ship(ship.name, ship.weapon, ship.aura, ship.zen));
+        this.ships.push(new Ship(ship.name, ship.weapon, ship.aura, ship.zen));
       }      
     }
-  };
+  };   
  }
 
 module.exports = {
