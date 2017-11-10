@@ -48,6 +48,7 @@
     
     
     
+
     {
       "name": "Xaniea", "weapon": "Photon Pods", "aura": "Laser Storm", "zen": "Teleport"
     },
@@ -56,6 +57,25 @@
     },
     {
       "name": "Atlas", "weapon": "Autocannon", "aura": "Missile Swarm", "zen": "Personal Shield"
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "name": "Essin", "weapon": "Cyclone Cannon", "aura": "Laser Storm", "zen": "Personal Shield"
+    },
+    {
+      "name": "EXO4239", "weapon": "Meson Projectors", "aura": "Missile Swarm", "zen": "Mega Laser"
+    },
+    {
+      "name": "", "weapon": "", "aura": "", "zen": ""
+
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
