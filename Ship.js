@@ -11,7 +11,7 @@ module.exports = {
     toString: function(){
       return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
     }
-  }
+  },
   
   allships: function () {
     var list = "List of all ship:\n";
@@ -20,4 +20,5 @@ module.exports = {
         list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
       }
     }
+  }
 }
