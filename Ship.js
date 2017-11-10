@@ -1,6 +1,5 @@
+file: var require('./ships.json');
 module.exports = {
-  var file = require('./ships.json');
-
   class Ship{
     constructor(name, weapon, aura, zen) {
       this.name = String(name);
