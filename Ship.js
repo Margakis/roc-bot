@@ -22,10 +22,10 @@ function getallships() {
   }
 }
 
-class AllShips{
-  this.ships = {};
+class AllShips{  
   static SHIPS() {return ships};
   constructor(){
+    this.ships = {};
     for (var ship in allshipsf.ships) {
       if(String(ship.name) != ''){
         this.ships.push(new Ship(ship.name, ship.weapon, ship.aura, ship.zen));
