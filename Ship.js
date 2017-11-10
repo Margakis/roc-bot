@@ -1,4 +1,5 @@
 var file = require('./ships.json');
+
 class Ship {
   constructor(name, weapon, aura, zen) {
     this.name = String(name);
@@ -12,7 +13,7 @@ class Ship {
   }
 }
 
-function allships() {
+function getallships() {
   var list = "List of all ship:\n";
   for (var ship in allshipsf.ships) {
     if(String(ship.name) != ''){
@@ -21,8 +22,19 @@ function allships() {
   }
 }
 
+class AllShips{
+  static var SHIPS = [];
+  constructor(){
+    for (var ship in allshipsf.ships) {
+      if(String(ship.name) != ''){
+        SHIPS.push(new Ship(ship.name, ship.weapon, ship.aura, ship.zen));
+      }      
+    }
+  };
+ }
+
 module.exports = {
   Ship: Ship,
-  allships: allships
+  getallships: getallships
 }
 
