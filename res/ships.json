@@ -7,46 +7,46 @@
       "name": "NC-150", "weapon": "Plasma cannon", "aura": "Stun EMP", "zen": "Personal shield"
     },
     {
-      "name": "Tar'cah", "weapon": "", "aura": "", "zen": ""
+      "name": "Tar'cah", "weapon": "Storm Blaster", "aura": "Point Defence", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Veil", "weapon": "Fusion Laser", "aura": "Bullet EMP", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Krillou", "weapon": "Photon Bombs", "aura": "Stun EMP", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Jericho", "weapon": "Inferno Seekers", "aura": "Bullet EMP", "zen": "Personal Shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Fujin", "weapon": "Quantum Beam", "aura": "Laser Storm", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Jn'dur", "weapon": "Plasma Diffuser", "aura": "Barrier", "zen": "Mega Bomb"
     },
     {
-      "name": "Tempest", "weapon": "", "aura": "", "zen": ""
+      "name": "Tempest", "weapon": "Ion Crystalizer", "aura": "Bullet EMP", "zen": "Mega Laser"
     },
     {
       "name": "Yoth-Hola", "weapon": "Vortex howler", "aura": "Point defense", "zen": "Personal shield"
     },
     {
-      "name": "Razor VI", "weapon": "", "aura": "", "zen": ""
+      "name": "Razor VI", "weapon": "Phase Disruptor", "aura": "Barrier", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Mist Star", "weapon": "Flux Seekers", "aura": "Stun EMP", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Proxymar", "weapon": "Lightning Conduit", "aura": "Missile Swarm", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Oran", "weapon": "Meson Laser", "aura": "Stun EMP", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Kada Veni", "weapon": "Pulse Battery", "aura": "Barrier", "zen": "Mega Bomb"
     },
     {
-      "name": "Wrackr", "weapon": "", "aura": "", "zen": ""
+      "name": "Wrackr", "weapon": "Seismic Blaster", "aura": "Point Defence", "zen": "Mega Bomb"
     },
     {
       "name": "Trireme", "weapon": "Burst pulsar", "aura": "Missile swarm", "zen": "Teleport"
@@ -115,16 +115,16 @@
       "name": "Heechi", "weapon": "Quantum seekers", "aura": "Barrier", "zen": "Kappa drive"
     },
     {
-      "name": "Prime X", "weapon": "", "aura": "", "zen": ""
+      "name": "Prime X", "weapon": "Vulcan", "aura": "Missile Swarm", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Sakura", "weapon": "Edge Projector", "aura": "Barrier", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Vani-Vith", "weapon": "Spark Fusor", "aura": "Vorpal Lance", "zen": "Teleport"
     },
     {
-      "name": "Zephyr", "weapon": "", "aura": "", "zen": ""
+      "name": "Zephyr", "weapon": "Photon Rails", "aura": "Point Defence", "zen": "Kappa Drive"
     },
     {
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
