@@ -45,16 +45,17 @@ bot.on('message', function (user, userID, channelID, message, evt) {
             case 'ships':
                 logger.info('Recieved cmd: ' + cmd
                         + ', With the arguments: ' + args)
-                bot.sendMessage({
-                  var list = "List of all ship:\n";
-                  for (var ship in allshipsf.ships) {
-                    if(String(ship.name) != ''){
-                      list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
-                    }
 
+                var list = "List of all ship:\n";
+                for (var ship in allshipsf.ships) {
+                  if(String(ship.name) != ''){
+                    list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
+                  }
+                  
+                bot.sendMessage({
                     to: channelID,
                     message: (
-                      "Test:\n" + list                 
+                      "Test:\n" + list
                     )
                 });
             break;
