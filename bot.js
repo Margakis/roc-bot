@@ -22,6 +22,8 @@ function listships(){
 bot.on('ready', function (evt) {
     logger.info('Connected');
     logger.info('Logged in as: ' + bot.username + ' - (' + bot.id + ')');
+    wraith = new Ship("Wraith", "Electron laser", "Vorpal lance", "Mega bomb");
+    logger.info('Ship-class test: '+wraith.tostring(); 
 });
 
 bot.on('message', function (user, userID, channelID, message, evt) {
