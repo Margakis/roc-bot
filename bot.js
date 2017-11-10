@@ -51,7 +51,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                   if(String(ship.name) != ''){
                     list += "\n" + ("**" + String(ship.name)+":** Weapon: *" + String(ship.weapon) +"*, Aura: *" + String(ship.aura) + "*, Zen: *" + String(ship.zen) + "*");
                   }
-                  
+                }
                 bot.sendMessage({
                     to: channelID,
                     message: (
