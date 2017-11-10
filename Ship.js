@@ -6,7 +6,7 @@ module.exports = {
       this.weapon = String(weapon);
       this.aura = String(aura);
       this.zen = String(zen);
-    }
+    },
 
     toString: function(){
       return ("**" + this.name+":** Weapon: *" + this.weapon +"*, Aura: *" + this.aura + "*, Zen: *" + this.zen + "*");
