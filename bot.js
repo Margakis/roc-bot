@@ -16,7 +16,7 @@ var bot = new Discord.Client({
 });
 
 function listships(){
-
+  return allships();
 }
 
 function allships() {
