@@ -75,6 +75,15 @@
     
 
     {
+      "name": "Cinniri", "weapon": "Neutron Launcher", "aura": "Stun EMP", "zen": "Mega Laser"
+    },
+    {
+      "name": "Phoenix", "weapon": "Helix Cannon", "aura": "Bullet EMP", "zen": "Personal Shield"
+    },
+    {
+      "name": "Buhloo", "weapon": "Quantum Prisms", "aura": "Laser Storm", "zen": "Mega Bomb"
+    },
+    {
       "name": "Xaniea", "weapon": "Photon Pods", "aura": "Laser Storm", "zen": "Teleport"
     },
     {
@@ -100,8 +109,6 @@
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
-
-
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
