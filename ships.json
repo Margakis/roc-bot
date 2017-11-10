@@ -21,6 +21,14 @@
     
     
     
+    {
+      "name": "Czar", "weapon": "Fission Slammer", "aura": "Stun EMP", "zen": "Teleport"
+    },
+    {
+      "name": "Havoc", "weapon": "Mass Driver", "aura": "Laser Storm", "zen": "Mega Laser"
+    },
+    {
+      "name": "Geist", "weapon": "Quantum Blast", "aura": "Missile Swarm", "zen": "Personal Shield"
     
     
     
