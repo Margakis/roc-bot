@@ -29,6 +29,79 @@
     },
     {
       "name": "Geist", "weapon": "Quantum Blast", "aura": "Missile Swarm", "zen": "Personal Shield"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "name": "Juggernaut", "weapon": "Devastator Cannon", "aura": "Bullet EMP", "zen": "Mega Bomb"
+    },
+    {
+      "name": "Tillat'or", "weapon": "Gatling Cannon", "aura": "Barrier", "zen": "Teleport"
+    },
+    {
+      "name": "Elyon", "weapon": "Blaze Laser", "aura": "Laser Storm", "zen": "Kappa Drive"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "name": "Ogon", "weapon": "Photon Array", "aura": "Laser Storm", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Vuxine", "weapon": "Vortex Launcher", "aura": "Point Defence", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Phototurius", "weapon": "Photon Charge", "aura": "Stun EMP", "zen": "Mega Laser"
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    {
+      "name": "Xaniea", "weapon": "Photon Pods", "aura": "Laser Storm", "zen": "Teleport"
+    },
+    {
+      "name": "Arietis", "weapon": "Particle Disruptor", "aura": "Point Defense", "zen": "Mega Laser"
+    },
+    {
+      "name": "Atlas", "weapon": "Autocannon", "aura": "Missile Swarm", "zen": "Personal Shield"
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    {
+      "name": "Essin", "weapon": "Cyclone Cannon", "aura": "Laser Storm", "zen": "Personal Shield"
+    },
+    {
+      "name": "EXO4239", "weapon": "Meson Projectors", "aura": "Missile Swarm", "zen": "Mega Laser"
+    },
+    {
+      "name": "", "weapon": "", "aura": "", "zen": ""
+
+
     },
     {
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport"
@@ -65,16 +138,16 @@
       "name": "", "weapon": "", "aura": "", "zen": ""
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Wraith", "weapon": "Electron laser", "aura": "Vorpal lance", "zen": "Mega bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "X-81", "weapon": "Aim-540 mantis", "aura": "Ion cannon", "zen": "Mega laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Scuuxun", "weapon": "T'kari spikes", "aura": "Laser storm", "zen": "Reflex EMP"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Shogun", "weapon": "Phantom katana", "aura": "Blade storm", "zen": "Reflex EMP"
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
