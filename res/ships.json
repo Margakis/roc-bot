@@ -130,40 +130,40 @@
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb"
     },
     {
-      "name": "502-Q8", "weapon": "", "aura": "", "zen": ""
+      "name": "502-Q8", "weapon": "Plasma Compresser", "aura": "Phalanx", "zen": "Mega Laser"
     },
     {
-      "name": "Dragonfly", "weapon": "", "aura": "", "zen": ""
+      "name": "Dragonfly", "weapon": "Twin Miniguns", "aura": "Ion Cannon", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Hime", "weapon": "Spirit Lash", "aura": "Chrono Field", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Hunter", "weapon": "Hyper Blaster", "aura": "Phalanx", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Gladius", "weapon": "Plasma Missiles", "aura": "Vorpal Lance", "zen": "Kappa Drive"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Lokie", "weapon": "Tremor Field", "aura": "Laser Storm", "zen": "Personal Shield"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Barret", "weapon": "Boson Cannon", "aura": "Ion Cannon", "zen": "Teleport"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Saber", "weapon": "Nova Blaster", "aura": "Vorpal Lance", "zen": "Reflex EMP"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Valkyrie", "weapon": "Tachyon Projector", "aura": "Phalanx", "zen": "Mega Bomb"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Proteus", "weapon": "Photon Detonator", "aura": "Point Defence", "zen": "Mega Laser"
     },
     {
-      "name": "", "weapon": "", "aura": "", "zen": ""
+      "name": "Yigothu", "weapon": "Zatha Probes", "aura": "Chrono Field", "zen": "Reflex EMP"
     },
     {
-      "name": "Torrent", "weapon": "", "aura": "", "zen": ""
+      "name": "Torrent", "weapon": "Quantum Stream", "aura": "Stun EMP", "zen": "Personal Shield"
     },
     {
       "name": "Orion", "weapon": "Photon scatter", "aura": "Point defense", "zen": "Teleport"
