@@ -30,6 +30,14 @@
     
     
     
+    {
+      "name": "Juggernaut", "weapon": "Devastator Cannon", "aura": "Bullet EMP", "zen": "Mega Bomb"
+    },
+    {
+      "name": "Tillat'or", "weapon": "Gatling Cannon", "aura": "Barrier", "zen": "Teleport"
+    },
+    {
+      "name": "Elyon", "weapon": "Blaze Laser", "aura": "Laser Storm", "zen": "Kappa Drive"
     
     
     
