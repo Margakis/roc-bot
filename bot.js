@@ -54,9 +54,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                 }
                 bot.sendMessage({
                     to: channelID,
-                    message: (
-                      "Test:\n" + list
-                    )
+                    message: "Test:\n" + list                    
                 });
             break;
          }
