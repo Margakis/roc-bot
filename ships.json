@@ -39,6 +39,15 @@
     
     
     
+    {
+      "name": "Ogon", "weapon": "Photon Array", "aura": "Laser Storm", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Vuxine", "weapon": "Vortex Launcher", "aura": "Point Defence", "zen": "Kappa Drive"
+    },
+    {
+      "name": "Phototurius", "weapon": "Photon Charge", "aura": "Stun EMP", "zen": "Mega Laser"
+
     
     
     
@@ -75,6 +84,7 @@
     },
     {
       "name": "", "weapon": "", "aura": "", "zen": ""
+
 
     },
     {
