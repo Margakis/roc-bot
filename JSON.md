@@ -18,6 +18,7 @@ There are some exception such as _Von Braun_ because _Braun_ is a place.
 ### Ships, weapons, auras and zens
 1. Ships:
 The ships are put in the _ships.json_ file under the res-folder and we do it as following:
+
 	{
 		"ships":[
 				{
