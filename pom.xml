@@ -7,7 +7,6 @@
     <groupId>jn.rocbot</groupId>
     <artifactId>roc-bot</artifactId>
     <version>1.0.2</version>
-
     <build>
         <plugins>
             <plugin>
@@ -33,4 +32,16 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+        <dependency>
+            <groupId>net.dv8tion</groupId>
+            <artifactId>JDA</artifactId>
+            <version>3.3.1_303</version>
+        </dependency>
+    </dependencies>
 </project>
