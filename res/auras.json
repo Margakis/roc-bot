@@ -10,13 +10,16 @@
         "description": "Destroys bullets in its path"
       }
     },
-
     {
-      "name":"", "properties": {
+      "name":"Ion Cannon", "properties": {
+        "max stun time": 4s,
+        "count": 6
 
       },
       "ultimate": {
-
+        "name":"EMP Bomb"
+        "description": "Deals moderate damage in a small radius"
+        
       }
     }
   ]
