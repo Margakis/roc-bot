@@ -28,9 +28,9 @@ public class ShipsCommand implements Command{
                         String list = "";
                         int num = Integer.valueOf(args[1]);
 
-                        if(num > 50) {
-                            num = 50;
-                            list += "Can not list more than 50 ships!\n";
+                        if(num > 30) {
+                            num = 30;
+                            list += "Can not list more than 30 ships!\nSo here is 30:\n";
                         }
 
                         for(int i = 0; i < num; i++){
@@ -39,7 +39,7 @@ public class ShipsCommand implements Command{
                                 list = "";
                             }
                             int ship = r.nextInt(ShipStore.SHIPS.size());
-                            list += ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
+                            list += "**"+ num + ".** " + ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
                         }
 
                         event.getTextChannel().sendMessage(list).complete();
