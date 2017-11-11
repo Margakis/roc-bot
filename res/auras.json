@@ -36,26 +36,20 @@
         "max radius":450
       },
       "ultimate": {
-      "name":"Advanced targeting",
-      "description":"Missiles will change targets if their current one is destroyed"
-      
-
+        "name":"Advanced targeting",
+        "description":"Missiles will change targets if their current one is destroyed"      
       }
     }
     
     {
-      "name";"Ion cannon"
+     "name":"Ion cannon"
     "properties":{
-    "stun time":4,
-    "max count":6
+      "stun time":4,
+      "max count":6
     },
     "ultimate":{
-    "name":"EMP bomb",
-    "description":"Deals moderate damage in a moderate radius"
-   
-    
-           
-
+      "name":"EMP bomb",
+      "description":"Deals moderate damage in a moderate radius"                  
     }
   ]
 }
