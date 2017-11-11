@@ -12,14 +12,13 @@
     },
     {
       "name":"Ion Cannon", "properties": {
-        "max stun time": 4s,
+        "max stun time": 4,
         "count": 6
 
       },
       "ultimate": {
         "name":"EMP Bomb"
-        "description": "Deals moderate damage in a small radius"
-        
+        "description": "Deals moderate damage in a small radius"        
       }
     }
   ]
