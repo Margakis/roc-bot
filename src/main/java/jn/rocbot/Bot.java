@@ -53,7 +53,7 @@ public class Bot extends ListenerAdapter {
                     if (r.nextInt(10) == 1) str = " Glad to be of use";
                     event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
                 } else if (raw.contains("best") && raw.contains("game")) {
-                    //event.getTextChannel().sendMessage("Best game is **Reassembly of course**! " + Emojis.EL).complete();
+                    event.getTextChannel().sendMessage("Best game is **Reassembly of course**! " + Emojis.EL).complete();
                 }
             }
         }
