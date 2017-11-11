@@ -4,6 +4,7 @@ import jn.rocbot.commands.Command;
 import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
+import net.dv8tion.jda.core.events.DisconnectEvent;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;

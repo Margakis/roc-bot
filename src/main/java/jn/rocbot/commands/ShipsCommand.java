@@ -39,7 +39,7 @@ public class ShipsCommand implements Command{
                                 list = "";
                             }
                             int ship = r.nextInt(ShipStore.SHIPS.size());
-                            list += "**"+ num + ".** " + ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
+                            list += "**"+ i + ".** " + ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
                         }
 
                         event.getTextChannel().sendMessage(list).complete();
