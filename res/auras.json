@@ -42,14 +42,15 @@
     }
     
     {
-     "name":"Ion cannon"
-    "properties":{
-      "stun time":4,
-      "max count":6
-    },
-    "ultimate":{
-      "name":"EMP bomb",
-      "description":"Deals moderate damage in a moderate radius"                  
+      "name":"Ion cannon",
+      "properties":{
+        "stun time":4,
+        "max count":6
+      },
+      "ultimate":{
+        "name":"EMP bomb",
+        "description":"Deals moderate damage in a moderate radius"                  
+      }
     }
   ]
 }
