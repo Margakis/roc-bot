@@ -29,6 +29,7 @@ The ships are put in the _ships.json_ file under the res-folder and we do it as 
 				}
 		]
 	}
+	
 
 
 
