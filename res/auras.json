@@ -10,12 +10,13 @@
         "description": "Destroys bullets in its path"
       }
     },
+
     {
       "name":"", "properties": {
 
       },
       "ultimate": {
-        
+
       }
     }
   ]
