@@ -63,5 +63,18 @@
       "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
     }
   }
+    
+  {
+    "name":"Phalanx"
+    "properties":{
+    "phalanx strength":150%,
+    "counters":6
+    },
+    "ultimate":{
+    "name":"Wide Phalanx",
+    "description":"Makes the Phalanx wider and increases it's durability"
+  }
+}
+    
   ]
 }
