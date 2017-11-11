@@ -67,7 +67,7 @@
   {
     "name":"Phalanx",
     "properties":{
-    "phalanx strength":150%,
+    "phalanx strength":150,
     "counters":6
     },
     "ultimate":{
