@@ -43,10 +43,10 @@ public class RocParser {
 
         public String hrInfo(){
             return "Commandreceived:"
+                    + "\n\tInvoke: " + invoke
                     + "\n\tRaw: " + raw
                     + "\n\tBeheaded: " + beheaded
                     + "\n\tSplitBeheaded: " + Arrays.toString(splitBeheaded)
-                    + "\n\tinvoke: " + invoke
                     + "\n\targs: " + Arrays.toString(args);
         }
     }

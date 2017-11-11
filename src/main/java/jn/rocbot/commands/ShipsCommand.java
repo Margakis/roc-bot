@@ -1,5 +1,8 @@
 package jn.rocbot.commands;
 
+import jn.rocbot.Main;
+import jn.rocbot.info.Ship;
+import jn.rocbot.info.ShipNotFoundException;
 import jn.rocbot.info.ShipStore;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
@@ -19,8 +22,28 @@ public class ShipsCommand implements Command{
     public void action(String[] args, MessageReceivedEvent event) {
         if(args.length > 0) {
             if (args[0].toLowerCase().equals("random")) {
-                event.getTextChannel().sendMessage(ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString()).complete();
+                if(args.length > 1) {
+                    if (args[1].toLowerCase().equals("info"))
+                        event.getTextChannel().sendMessage(ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString()).complete();
+                }else{
+                    event.getTextChannel().sendMessage("**" + ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).name + "**").complete();
+                }
             }
+
+            else if(Ship.isShip(args[0])){
+                dlog("");
+                try {
+                    event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString());
+                } catch (ShipNotFoundException e) {
+
+                }
+            }
+        }else{
+            String shiplist = "";
+            for(Ship ship : ShipStore.SHIPS){
+                shiplist += ship.name + ", ";
+            }
+            shiplist.
         }
     }
 
@@ -32,5 +55,9 @@ public class ShipsCommand implements Command{
     @Override
     public boolean executed(boolean success, MessageReceivedEvent event) {
         return true;
+    }
+
+    private void dlog(String msg){
+        Main.log(Main.LOGTYPE.DEBUG, msg);
     }
 }

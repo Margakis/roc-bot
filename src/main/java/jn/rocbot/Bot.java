@@ -10,7 +10,7 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
 import java.util.HashMap;
 
-public class Bot extends ListenerAdapter{
+public class Bot extends ListenerAdapter {
 
     public static HashMap<String, Command> COMMANDS;
 
