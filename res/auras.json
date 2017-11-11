@@ -1,0 +1,22 @@
+{
+  "auras":[
+    {
+      "name":"Vorpal lance", "properites": {
+        "damage": 31.25,
+        "count": 4
+      },
+      "ultimate": {
+        "name": "Vorpal wake",
+        "description": "Destroys bullets in its path"
+      }
+    },
+    {
+      "name":"", "properties": {
+
+      },
+      "ultimate": {
+        
+      }
+    }
+  ]
+}
