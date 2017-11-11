@@ -24,6 +24,7 @@ public class ShipsCommand implements Command{
         if(args.length > 0) {
             if (args[0].toLowerCase().equals("random")) {
                 if(args.length > 1) {
+                    //if(args[1])
                     if (args[1].toLowerCase().equals("info"))
                         event.getTextChannel().sendMessage(ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString()).complete();
                 }else{

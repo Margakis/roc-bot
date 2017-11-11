@@ -13,7 +13,7 @@ public class HelloCommand implements Command {
 
     @Override
     public void action(String[] args, MessageReceivedEvent event) {
-        event.getTextChannel().sendMessage("Hello! hi jen").complete();
+        event.getTextChannel().sendMessage("Hello " + event.getAuthor().getName() + "!").complete();
     }
 
     @Override
