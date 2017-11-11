@@ -43,17 +43,18 @@ public class Bot extends ListenerAdapter {
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
         }else {
-            String raw = event.getMessage().getContent().toLowerCase();
+            if(!event.getAuthor().isBot()) {
+                String raw = event.getMessage().getContent().toLowerCase();
+                if (raw.contains("name the bot")) {
+                    event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
+                } else if (raw.contains("thanks bot")) {
+                    String str = "";
 
-            if (raw.contains("name the bot")) {
-                event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
-            }else if(raw.contains("thanks bot")){
-                String str = "";
-
-                if(r.nextInt(10) == 1) str = " Glad to be of use";
-                event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
-            }else if(raw.contains("best") && raw.contains("game")){
-                //event.getTextChannel().sendMessage("Best game is **Reassembly of course**! " + Emojis.EL).complete();
+                    if (r.nextInt(10) == 1) str = " Glad to be of use";
+                    event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
+                } else if (raw.contains("best") && raw.contains("game")) {
+                    //event.getTextChannel().sendMessage("Best game is **Reassembly of course**! " + Emojis.EL).complete();
+                }
             }
         }
     }
