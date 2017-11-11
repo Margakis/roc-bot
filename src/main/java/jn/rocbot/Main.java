@@ -28,7 +28,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        if(DEBUG = /*Boolean.valueOf(args[1])*/ false);
+        if(DEBUG = Boolean.valueOf(args[1]));
     }
 
     public enum LOGTYPE {

@@ -22,9 +22,9 @@ public class Ship implements Formatter{
     }
 
     public enum RARITY{
-        COMMON(":common:"),
-        RARE(":rare:"),
-        SUPER_RARE(":superrare:");
+        COMMON("<:common:378807923318718464>"),
+        RARE("<:rare:378807923377307648>"),
+        SUPER_RARE("<:superrare:378808209709858819>");
 
         private final String emoji;
 

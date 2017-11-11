@@ -9,9 +9,10 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
 import java.util.HashMap;
+import java.util.Random;
 
 public class Bot extends ListenerAdapter {
-
+    private final Random r = new Random();
     public static HashMap<String, Command> COMMANDS;
 
     public static RocParser PARSER;
@@ -33,9 +34,21 @@ public class Bot extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent event){
         dlog("MessageRecieved!: "+event.getMessage().getContent()
                 + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
+
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
+        }else {
+            String raw = event.getMessage().getContent().toLowerCase();
+
+            if (raw.contains("name the bot")) {
+                event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
+            }else if(raw.contains("thanks bot")){
+                String str = "";
+
+                if(r.nextInt(10) == 1) str = " Glad to be of use";
+                event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
+            }
         }
     }
 

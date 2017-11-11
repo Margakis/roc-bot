@@ -1,5 +1,6 @@
 package jn.rocbot.commands;
 
+import jn.rocbot.Emojis;
 import jn.rocbot.Main;
 import jn.rocbot.info.Ship;
 import jn.rocbot.info.ShipNotFoundException;
@@ -26,7 +27,8 @@ public class ShipsCommand implements Command{
                     if (args[1].toLowerCase().equals("info"))
                         event.getTextChannel().sendMessage(ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString()).complete();
                 }else{
-                    event.getTextChannel().sendMessage("**" + ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).name + "**").complete();
+                    int ship = r.nextInt(ShipStore.SHIPS.size());
+                    event.getTextChannel().sendMessage("**" + ShipStore.SHIPS.get(ship).name + "** " + ShipStore.SHIPS.get(ship).rarity.toEmoji()).complete();
                 }
             }
 
@@ -40,10 +42,13 @@ public class ShipsCommand implements Command{
             }
         }else{
             String shiplist = "";
+
             for(Ship ship : ShipStore.SHIPS){
-                shiplist += ship.name + ", ";
+                if(ship.name != "Shogun") shiplist += ship.name + ", ";
+                else shiplist += "Shogun";
             }
-            shiplist.
+
+            event.getTextChannel().sendMessage(shiplist).complete();
         }
     }
 
