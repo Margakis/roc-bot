@@ -19,7 +19,6 @@
         "max duration":4.5
         "max damage":112
         "max radius:500"
-
       },
       "ultimate": {
         "name":"Laser Moon Mk.II"
@@ -33,7 +32,7 @@
       "":{
 
       }
-      
+
     }
   ]
 }
