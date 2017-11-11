@@ -28,13 +28,14 @@ public class ShipsCommand implements Command{
                         String list = "";
                         int num = Integer.valueOf(args[1]);
 
-                        if( num > 50) {
+                        if(num > 50) {
                             num = 50;
                             list += "Can not list more than 50 ships!\n";
                         }
 
                         for(int i = 0; i < num; i++){
-                            list += ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString() + "\n";
+                            int ship = r.nextInt(ShipStore.SHIPS.size());
+                            list += ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
                         }
 
                         event.getTextChannel().sendMessage(list).complete();
