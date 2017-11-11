@@ -51,6 +51,17 @@
         "name":"EMP bomb",
         "description":"Deals moderate damage in a moderate radius"                  
       }
+    },
+    
+    {
+      "name":"Bullet EMP",
+      "properties":{
+      "max radius":450
+    },
+    "ultimate":{
+      "name":"Reset Stun"
+      "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
     }
+  }
   ]
 }
