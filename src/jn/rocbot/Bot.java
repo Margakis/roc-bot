@@ -2,6 +2,7 @@ package jn.rocbot;
 
 import jn.rocbot.commands.Command;
 import jn.rocbot.commands.ShipsCommand;
+import jn.rocbot.commands.SourceCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
@@ -21,7 +22,7 @@ public class Bot extends ListenerAdapter{
         COMMANDS = new HashMap<>();
         COMMANDS.put("hello", new HelloCommand());
         COMMANDS.put("ships", new ShipsCommand());
-
+        COMMANDS.put("source", new SourceCommand());
     }
 
     private void dlog(String msg){
@@ -30,7 +31,8 @@ public class Bot extends ListenerAdapter{
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
-        dlog("MessageRecieved!: "+event.getMessage().getContent());
+        dlog("MessageRecieved!: "+event.getMessage().getContent()
+                + "\nFrom user;" + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));

@@ -18,4 +18,15 @@ public class Ship implements Formatter{
     public String simpleToString(){
         return bold(name + ":") + " Weapon: " + italic(weapon) + ", Aura: " + italic(aura) + ", Zen: " + italic(zen);
     }
+
+    public enum RARITY{
+
+        COMMON(":common:"),
+        RARE(":rare:"),
+        SUPER_RARE(":superrare:");
+
+        RARITY(String s) {
+
+        }
+    }
 }
