@@ -1,7 +1,8 @@
 {
   "auras":[
     {
-      "name":"Vorpal lance", "properites": {
+      "name":"Vorpal lance",
+      "properites": {
         "damage": 31.25,
         "count": 4
       },
@@ -11,18 +12,9 @@
       }
     },
 
-   
-    
-    
-    
-    
-    
-    
-    
-    
-    
     {
-      "name":"Laser Storm", "properties": {
+      "name":"Laser Storm",
+      "properties": {
         "laser moons":5
         "max duration":4.5
         "max damage":112
@@ -34,6 +26,14 @@
         "description":"Laser moons shoot two lasers,dealing extra damage"
 
       }
+    },
+
+    {
+      "name":"",
+      "":{
+
+      }
+      
     }
   ]
 }
