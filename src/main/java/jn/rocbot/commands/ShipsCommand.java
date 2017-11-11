@@ -38,7 +38,8 @@ public class ShipsCommand implements Command{
                                 event.getTextChannel().sendMessage(list).complete();
                                 list = "";
                             }
-                            int ship = r.nextInt(ShipStore.SHIPS.size());
+                            int ship = getShipNotTaken(list);
+
                             list += "**"+ (i + 1) + ".** " + ShipStore.SHIPS.get(ship).rarity.toEmoji() + ShipStore.SHIPS.get(ship).name + "\n";
                         }
 
@@ -84,6 +85,12 @@ public class ShipsCommand implements Command{
         }
 
         return size > 0;
+    }
+
+    public int getShipNotTaken(String list){
+        int newship = r.nextInt(ShipStore.SHIPS.size());
+        if(list.contains(ShipStore.SHIPS.get(newship).name)) return getShipNotTaken(list);
+        else return newship;
     }
 
     @Override
