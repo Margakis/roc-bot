@@ -36,7 +36,7 @@
         "max radius":450
       },
       "ultimate": {
-      "name":"Advanced targeting"
+      "name":"Advanced targeting",
       "description":"Missiles will change targets if their current one is destroyed"
       
 
