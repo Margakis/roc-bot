@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* jn.rocbot.Main Mzc3ODEyNjk1NTg1MzkwNjAy.DOjNzg.OBBsKYSfLM05QDPj1w5_DU9M83w true 
+worker: java -cp target/classes:target/dependency/* jn.rocbot.Main Mzc3ODEyNjk1NTg1MzkwNjAy.DOjNzg.OBBsKYSfLM05QDPj1w5_DU9M83w true
