@@ -1,6 +1,7 @@
 package jn.rocbot;
 
 import jn.rocbot.commands.Command;
+import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
@@ -18,8 +19,9 @@ public class Bot extends ListenerAdapter{
         PARSER = new RocParser();
 
         COMMANDS = new HashMap<>();
-
         COMMANDS.put("hello", new HelloCommand());
+        COMMANDS.put("ships", new ShipsCommand());
+
     }
 
     private void dlog(String msg){
