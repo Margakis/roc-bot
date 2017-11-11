@@ -29,7 +29,7 @@
 
     {
       "name":"Missile swarm",
-      "prperties":{
+      "properties":{
         "missiles":46,
         "max damage":138,
         "homing capability":"Perfect",
@@ -41,6 +41,20 @@
       
 
       }
+    }
+    
+    {
+      "name";"Ion cannon"
+    "properties":{
+    "stun time":4,
+    "max count":6
+    },
+    "ultimate":{
+    "name":"EMP bomb",
+    "description":"Deals moderate damage in a moderate radius"
+   
+    
+           
 
     }
   ]
