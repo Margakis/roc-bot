@@ -32,7 +32,7 @@ public class Bot extends ListenerAdapter{
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
         dlog("MessageRecieved!: "+event.getMessage().getContent()
-                + "\nFrom user;" + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
+                + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
