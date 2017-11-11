@@ -34,6 +34,10 @@ public class ShipsCommand implements Command{
                         }
 
                         for(int i = 0; i < num; i++){
+                            if(list.length() > 1500){
+                                event.getTextChannel().sendMessage(list).complete();
+                                list = "";
+                            }
                             int ship = r.nextInt(ShipStore.SHIPS.size());
                             list += ShipStore.SHIPS.get(ship).rarity.toEmoji() + " **" + ShipStore.SHIPS.get(ship).name + "**" + "\n";
                         }
