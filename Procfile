@@ -1,1 +1,1 @@
-web: java -cp target/classes:target/dependency/* Main
+web: java -cp Mzc3ODEyNjk1NTg1MzkwNjAy.DOjNzg.OBBsKYSfLM05QDPj1w5_DU9M83w true target/classes:target/dependency/* jn.rocbot.Main
