@@ -16,8 +16,8 @@
       "name":"Laser Storm",
       "properties": {
         "laser moons":5
-        "max duration":4.5
-        "max damage":112
+        "max duration":4.5,
+        "max damage":112,
         "max radius:500"
       },
       "ultimate": {
@@ -28,8 +28,17 @@
     },
 
     {
-      "name":"",
-      "":{
+      "name":"Missile swarm",
+      "prperties":{
+        "missiles":46,
+        "max damage":138,
+        "homing capability":"Perfect",
+        "max radius":450
+      },
+      "ultimate": {
+      "name":"Advanced targeting"
+      "description":"Missiles will change targets if their current one is destroyed"
+      
 
       }
 
