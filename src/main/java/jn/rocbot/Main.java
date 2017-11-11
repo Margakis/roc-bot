@@ -6,6 +6,7 @@ import net.dv8tion.jda.core.JDABuilder;
 public class Main {
 
     //<editor-fold desc="ANSI codes">
+    //For use in the logger
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_BLACK = "\u001B[30m";
     public static final String ANSI_RED = "\u001B[31m";
@@ -17,22 +18,27 @@ public class Main {
     public static final String ANSI_WHITE = "\u001B[37m";
     //</editor-fold>
     private static boolean DEBUG;
+    private static boolean VERBOSE;
 
     private static net.dv8tion.jda.core.JDA JDA;
 
+    //requires the arguments String Token, boolean Debug, boolean Verbose
     public static void main(String[] args){
         try {
+            //Establishes a connection to the the chats that have added the bot as a user
             JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0]).buildBlocking();
             JDA.setAutoReconnect(true);
         } catch (Exception e){
             e.printStackTrace();
         }
 
-        if(DEBUG = Boolean.valueOf(args[1]));
+        DEBUG = Boolean.valueOf(args[1]);
+        VERBOSE = Boolean.valueOf(args[2]);
     }
 
     public enum LOGTYPE {
         INFO,
+        VERBOSE,
         ERROR,
         DEBUG;
     }
