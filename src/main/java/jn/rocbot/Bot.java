@@ -30,10 +30,13 @@ public class Bot extends ListenerAdapter {
     private void dlog(String msg){
         Main.log(Main.LOGTYPE.DEBUG, msg);
     }
+    private void vlog(String msg){
+        Main.log(Main.LOGTYPE.VERBOSE, msg);
+    }
 
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
-        dlog("MessageRecieved!: "+event.getMessage().getContent()
+        vlog("MessageRecieved!: "+event.getMessage().getContent()
                 + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
 
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
@@ -49,6 +52,8 @@ public class Bot extends ListenerAdapter {
 
                 if(r.nextInt(10) == 1) str = " Glad to be of use";
                 event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
+            }else if(raw.contains("best") && raw.contains("game")){
+                event.getTextChannel().sendMessage("Best game is **Reassembly of course! " + Emojis.EL);
             }
         }
     }

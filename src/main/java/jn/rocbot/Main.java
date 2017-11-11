@@ -17,8 +17,8 @@ public class Main {
     public static final String ANSI_CYAN = "\u001B[36m";
     public static final String ANSI_WHITE = "\u001B[37m";
     //</editor-fold>
-    private static boolean DEBUG;
-    private static boolean VERBOSE;
+    public static boolean DEBUG;
+    public static boolean VERBOSE;
 
     private static net.dv8tion.jda.core.JDA JDA;
 
@@ -46,7 +46,10 @@ public class Main {
     public static void log(LOGTYPE type, String message){
         switch (type){
             case INFO:
-                System.out.println(ANSI_PURPLE + message + ANSI_RESET);
+                System.out.println(ANSI_GREEN + message + ANSI_RESET);
+                break;
+            case VERBOSE:
+                System.out.println(ANSI_CYAN+ message + ANSI_RESET);
                 break;
             case ERROR:
                 System.out.println(ANSI_RED + message + ANSI_RESET);
