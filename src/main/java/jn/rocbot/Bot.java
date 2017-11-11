@@ -19,7 +19,7 @@ public class Bot extends ListenerAdapter{
     static {
         PARSER = new RocParser();
 
-        COMMANDS = new HashMap<>();
+        COMMANDS = new HashMap<String, Command>();
         COMMANDS.put("hello", new HelloCommand());
         COMMANDS.put("ships", new ShipsCommand());
         COMMANDS.put("source", new SourceCommand());
