@@ -10,15 +10,29 @@
         "description": "Destroys bullets in its path"
       }
     },
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
     {
-      "name":"Ion Cannon", "properties": {
-        "max stun time": 4,
-        "count": 6
+      "name":"Laser Storm", "properties": {
+        "laser moons":5
+        "max duration":4.5
+        "max damage":112
+        "max radius:500"
 
       },
       "ultimate": {
-        "name":"EMP Bomb"
-        "description": "Deals moderate damage in a small radius"        
+        "name":"Laser Moon Mk.II"
+        "description":"Laser moons shoot two lasers,dealing extra damage"
+
       }
     }
   ]
