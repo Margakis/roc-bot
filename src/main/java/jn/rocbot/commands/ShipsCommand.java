@@ -39,7 +39,7 @@ public class ShipsCommand implements Command{
 
                         event.getTextChannel().sendMessage(list).complete();
 
-                    }else {
+                    } else {
                         if (args[1].toLowerCase().equals("info"))
                             event.getTextChannel().sendMessage(ShipStore.SHIPS.get(r.nextInt(ShipStore.SHIPS.size())).simpleToString()).complete();
                     }

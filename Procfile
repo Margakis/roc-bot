@@ -1,1 +1,1 @@
-worker: java -cp target/classes:target/dependency/* jn.rocbot.Main $TOKEN $DEBUG
+worker: java -cp target/classes:target/dependency/* jn.rocbot.Main $TOKEN $DEBUG $VERBOSE
