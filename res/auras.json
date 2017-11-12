@@ -115,26 +115,26 @@
     }
   }
     {
-      "name":"Stun EMP",
+      "name":"Blade storm",
       "properties":{
-        "max radius":450,
-        "max stun Time":5,
-        "max damage":5
+        "max radius":500,
+        "max damage":100
       },
       "ultimate":{
-        "name":"Stun bomb",
-        "description":"deals moderat damage to invaders in the radius."
+        "name":"Omnislash",
+        "description":"Small buff to stats. Any special effect has yet go be determined."
       }
     },
     {
-      "name":"Barrier",
+      "name":"Chrono Field",
       "properties":{
-        "max radius":450,
-        "barrier strength":200
+        "max duration":5,
+        "max radius":170,
+        "phase out":0.5
       },
       "ultimate":{
-        "name":"Inner lining",
-        "description":"Creates a secondary barrier inside the primary barrier with it's own health pool"
+        "name":"Phase out",
+        "description":"Phases the ship out for half a second hen they exit the field"
       }
 
     }
