@@ -1,8 +1,7 @@
 package jn.rocbot.commands;
 
-import jn.rocbot.Emojis;
 import jn.rocbot.Main;
-import jn.rocbot.info.Ship;
+import jn.rocbot.ships.Ship;
 import jn.rocbot.info.ShipNotFoundException;
 import jn.rocbot.info.ShipStore;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
