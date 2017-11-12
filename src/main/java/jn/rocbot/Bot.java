@@ -1,6 +1,7 @@
 package jn.rocbot;
 
 import jn.rocbot.commands.Command;
+import jn.rocbot.commands.HelpCommand;
 import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
@@ -28,6 +29,7 @@ public class Bot extends ListenerAdapter {
 
         COMMANDS = new HashMap<String, Command>();
         COMMANDS.put("hello", new HelloCommand());
+        COMMANDS.put("help", new HelpCommand());
         COMMANDS.put("ships", new ShipsCommand());
         //COMMANDS.put("source", new SourceCommand());
     }

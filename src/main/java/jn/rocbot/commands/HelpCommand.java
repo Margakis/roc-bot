@@ -24,7 +24,7 @@ public class HelpCommand implements Command {
             if(Bot.COMMANDS.containsKey(args[0])){
                 event.getTextChannel().sendMessage(Bot.COMMANDS.get(args[0]).help()).complete();
             } else {
-                event.getTextChannel().sendMessage("No command named *" + args[0] + "* use !help for a list of avaible commands")
+                event.getTextChannel().sendMessage("No command named *" + args[0] + "* use !help for a list of avaible commands");
             }
         }
     }
