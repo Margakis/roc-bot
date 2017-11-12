@@ -88,9 +88,9 @@ public class Bot extends ListenerAdapter {
 
         String args = "";
 
-        for(String arg : Main.ARGUMENTS) args += "\n" + arg
+        for(String arg : Main.ARGUMENTS) args += "\n\t" + arg;
 
-        Main.log(INFO, args);
+        Main.log(INFO, "Args:" + args);
     }
 
     /**
