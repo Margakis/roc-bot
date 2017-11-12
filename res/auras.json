@@ -76,15 +76,16 @@
   }
 }
     
-  {"name":"Stun EMP",
-   "properties":{
-    "max radius":450
-   "max stun Time":5
-   "max damage":5
-  },
-  "ultimate":{
-  "name":"Stun bomb",
-  "description":"deals moderat damage to invaders in the radius."
+  {
+    "name":"Stun EMP",
+    "properties":{
+      "max radius":450,
+      "max stun Time":5,
+      "max damage":5
+    },
+    "ultimate":{
+      "name":"Stun bomb",
+      "description":"deals moderat damage to invaders in the radius."
   }
 }
   
