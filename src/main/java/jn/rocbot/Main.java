@@ -34,8 +34,9 @@ public class Main {
             e.printStackTrace();
         }
 
+        //Just sets some variables from the main method arguments
+        //See the Procfile for the execution
         TOKEN = args[0];
-
         DEBUG = Boolean.parseBoolean(args[1].toLowerCase());
         VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
     }

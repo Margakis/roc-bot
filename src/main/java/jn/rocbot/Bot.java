@@ -5,7 +5,6 @@ import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
 import net.dv8tion.jda.core.entities.Guild;
-import net.dv8tion.jda.core.events.DisconnectEvent;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
@@ -14,6 +13,7 @@ import java.util.HashMap;
 import java.util.Random;
 
 import static jn.rocbot.Main.LOGTYPE.INFO;
+import jn.rocbot.RocParser.CommandContainer;
 
 public class Bot extends ListenerAdapter {
     private final Random r = new Random();
@@ -37,17 +37,26 @@ public class Bot extends ListenerAdapter {
         Main.log(Main.LOGTYPE.VERBOSE, msg);
     }
 
+    /**
+     * Runs every time a message is received
+     * @param event here all the neccessary information is found
+     */
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
         vlog("MessageRecieved!: "+event.getMessage().getContent()
                 + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
 
+        //Checks if the message starts with ! and if the sender is not a bot
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
+
         } else {
             if(!event.getAuthor().isBot()) {
                 String raw = event.getMessage().getContent().toLowerCase();
+
+                //Some special cases -----------------------------------------------------
+
                 if (raw.contains("name the bot")) {
                     event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
                 } else if (raw.contains("thanks bot")) {
@@ -64,6 +73,7 @@ public class Bot extends ListenerAdapter {
 
     @Override
     public void onReady(ReadyEvent event){
+        //Just some info to the log
         Main.log(INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
         Main.log(INFO, "Log variables; DEBUG: " + Main.DEBUG + ", VERBOSE: " + Main.VERBOSE);
         Main.log(INFO, "Found " + event.getJDA().getGuilds().size() + " guilds");
@@ -75,7 +85,11 @@ public class Bot extends ListenerAdapter {
         Main.log(INFO, "Name set to Roc-bot");
     }
 
-    private void handleCommand(RocParser.CommandContainer cmd){
+    /**
+     * Executes the command if it is valid
+     * @param cmd A container containing the details for the command
+     */
+    private void handleCommand(CommandContainer cmd){
         dlog(cmd.hrInfo());
         if(COMMANDS.containsKey(cmd.invoke)){
             boolean safe = COMMANDS.get(cmd.invoke).called(cmd.args, cmd.event);
