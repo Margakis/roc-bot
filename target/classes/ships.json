@@ -43,7 +43,7 @@
       "name": "Oran", "weapon": "Meson laser", "aura": "Stun EMP", "zen": "Kappa drive", "r":3
     },
     {
-      "name": "Kada veni", "weapon": "Pulse battery", "aura": "Barrier", "zen": "Mega bomb", "r":1
+      "name": "Kada Veni", "weapon": "Pulse battery", "aura": "Barrier", "zen": "Mega bomb", "r":1
     },
     {
       "name": "Wrackr", "weapon": "Seismic blaster", "aura": "Point defence", "zen": "Mega bomb", "r":1
@@ -106,7 +106,7 @@
       "name": "Aurora", "weapon": "Quantum nuke", "aura": "Bullet EMP", "zen": "Teleport", "r":3
     },
     {
-      "name": "Von braun", "weapon": "Daisy cutter", "aura": "Missile swarm", "zen": "Kappa drive", "r":2
+      "name": "Von Braun", "weapon": "Daisy cutter", "aura": "Missile swarm", "zen": "Kappa drive", "r":2
     },
     {
       "name": "Gorthaur", "weapon": "Barrage cannons", "aura": "Barrier", "zen": "Personal shield", "r":2

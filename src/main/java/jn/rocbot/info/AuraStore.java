@@ -13,9 +13,9 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class AuraStore {
-    public static final ArrayList<Aura> AURAS = new ArrayList<Aura>();
+    public static ArrayList<Aura> AURAS = new ArrayList<Aura>();
 
-    static {
+    public static void init(){
         JsonParser parser = new JsonParser();
 
         try {

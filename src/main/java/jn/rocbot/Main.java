@@ -50,7 +50,6 @@ public class Main {
         }
 
         Random r = new Random();
-        Main.log(LOGTYPE.DEBUG, AuraStore.AURAS.get(r.nextInt(AuraStore.AURAS.size())).name);
     }
 
     public enum LOGTYPE {

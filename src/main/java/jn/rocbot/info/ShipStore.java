@@ -16,6 +16,8 @@ public class ShipStore {
     public static ArrayList<Ship> SHIPS = new ArrayList<>();
 
     static {
+        AuraStore.init();
+        
         JsonParser parser = new JsonParser();
 
         try {
