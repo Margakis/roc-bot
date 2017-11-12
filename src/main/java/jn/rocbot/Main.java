@@ -20,7 +20,7 @@ public class Main {
     public static boolean DEBUG;
     public static boolean VERBOSE;
 
-    private static net.dv8tion.jda.core.JDA JDA;
+    public static net.dv8tion.jda.core.JDA JDA;
 
     //requires the arguments String Token, boolean Debug, boolean Verbose
     public static void main(String[] args){
