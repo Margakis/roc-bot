@@ -1,7 +1,10 @@
 package jn.rocbot;
 
+import jn.rocbot.info.AuraStore;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDABuilder;
+
+import java.util.Random;
 
 public class Main {
 
@@ -45,6 +48,9 @@ public class Main {
         } catch (Exception e){
             e.printStackTrace();
         }
+
+        Random r = new Random();
+        Main.log(LOGTYPE.DEBUG, AuraStore.AURAS.get(r.nextInt(AuraStore.AURAS.size())).name);
     }
 
     public enum LOGTYPE {
