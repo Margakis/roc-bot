@@ -5,6 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
+import jn.rocbot.Main;
 import jn.rocbot.ships.Aura;
 
 import java.io.FileNotFoundException;
@@ -66,6 +67,7 @@ public class AuraStore {
 
     public static Aura fromName(String name) throws AuraNotFounException{
         for(Aura aura : AURAS){
+            Main.log(Main.LOGTYPE.DEBUG, "AURAS contain " + AURAS.size() + " auras");
             if(aura.name.toLowerCase() == name.toLowerCase()) return aura;
         }
 

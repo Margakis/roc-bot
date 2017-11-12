@@ -56,8 +56,8 @@ public class Main {
 
     public enum LOGTYPE {
         INFO,
-        VERBOSE,
         ERROR,
+        VERBOSE,
         DEBUG
     }
 
@@ -66,11 +66,12 @@ public class Main {
             case INFO:
                 System.out.println(ANSI_GREEN + message + ANSI_RESET);
                 break;
-            case VERBOSE:
-                System.out.println(ANSI_CYAN+ message + ANSI_RESET);
-                break;
             case ERROR:
                 System.out.println(ANSI_RED + message + ANSI_RESET);
+                break;
+            case VERBOSE:
+                if(Main.VERBOSE)
+                    System.out.println(ANSI_CYAN+ message + ANSI_RESET);
                 break;
             case DEBUG:
                 if(Main.DEBUG)
