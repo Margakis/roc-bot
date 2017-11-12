@@ -86,8 +86,22 @@
     "ultimate":{
       "name":"Stun bomb",
       "description":"deals moderat damage to invaders in the radius."
+   }
   }
-}
+    
+  {"name":"Chrono Field",
+    "properties":{
+      "max duration":5,
+      "max radius":170,
+      "phase out":0.5
+    },
+    "ultimate":{
+      "name":"Phase out",
+      "description":"Phases the ship out for half a second hen they exit the field"
+    
+    }
+  }
+    
   
     
   ]
