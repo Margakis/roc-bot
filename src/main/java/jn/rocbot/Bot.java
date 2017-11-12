@@ -4,6 +4,7 @@ import jn.rocbot.commands.Command;
 import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
 import jn.rocbot.commands.testcommands.HelloCommand;
+import net.dv8tion.jda.core.entities.Guild;
 import net.dv8tion.jda.core.events.DisconnectEvent;
 import net.dv8tion.jda.core.events.ReadyEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
@@ -62,7 +63,9 @@ public class Bot extends ListenerAdapter {
     @Override
     public void onReady(ReadyEvent event){
         Main.log(Main.LOGTYPE.INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
-        Main.JDA.getSelfUser().getManager().setName("Roc-bot", Main.TOKEN);
+        for (Guild g : event.getJDA().getGuilds()) {
+            dlog(g.getName());
+        }
         Main.log(Main.LOGTYPE.INFO, "Name set to Roc-bot");
     }
 
