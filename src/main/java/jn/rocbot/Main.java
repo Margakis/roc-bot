@@ -36,8 +36,8 @@ public class Main {
 
         TOKEN = args[0];
 
-        DEBUG = Boolean.valueOf(args[1].toUpperCase());
-        VERBOSE = Boolean.valueOf(args[2].toUpperCase());
+        DEBUG = Boolean.parseBoolean(args[1].toLowerCase());
+        VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
     }
 
     public enum LOGTYPE {
