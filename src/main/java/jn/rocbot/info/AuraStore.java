@@ -65,9 +65,12 @@ public class AuraStore {
         }
     }
 
+    public static String auraStoreState(){
+        return "";
+    }
+
     public static Aura fromName(String name) throws AuraNotFounException{
         for(Aura aura : AURAS){
-            Main.log(Main.LOGTYPE.DEBUG, "AURAS contain " + AURAS.size() + " auras");
             if(aura.name.toLowerCase() == name.toLowerCase()) return aura;
         }
 

@@ -29,7 +29,7 @@ public class Bot extends ListenerAdapter {
         COMMANDS = new HashMap<String, Command>();
         COMMANDS.put("hello", new HelloCommand());
         COMMANDS.put("ships", new ShipsCommand());
-        COMMANDS.put("source", new SourceCommand());
+        //COMMANDS.put("source", new SourceCommand());
     }
 
     private void dlog(String msg){
