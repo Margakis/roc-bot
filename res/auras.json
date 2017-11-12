@@ -7,7 +7,7 @@
         "damage": 31.25,
         "count": 4
       },
-      "ultimate": {
+      "ult": {
         "name": "Vorpal wake",
         "desc": "Destroys bullets in its path"
       }
@@ -22,7 +22,7 @@
         "max damage":112,
         "max radius":500
       },
-      "ultimate": {
+      "ult": {
         "name":"Laser Moon Mk.II",
         "desc":"Laser moons shoot two lasers,dealing extra damage"
 
@@ -38,7 +38,7 @@
         "homing capability":"Perfect",
         "max radius":450
       },
-      "ultimate": {
+      "ult": {
         "name":"Advanced targeting",
         "desc":"Missiles will change targets if their current one is destroyed"      
       }
@@ -51,7 +51,7 @@
         "stun time":4,
         "max count":6
       },
-      "ultimate":{
+      "ult":{
         "name":"EMP bomb",
         "desc":"Deals moderate damage in a moderate radius"                  
       }
@@ -63,7 +63,7 @@
       "properties": {
         "max radius":450
       },
-      "ultimate":{
+      "ult":{
         "name":"Reset Stun",
         "desc":"stuns enemies for a short time to reset thier turrets,useful against spinners"
       }
@@ -76,7 +76,7 @@
         "phalanx strength":150,
         "counters":6
       },
-      "ultimate":{
+      "ult":{
         "name":"Wide Phalanx",
         "desc":"Makes the Phalanx wider and increases it's durability"
       }
@@ -90,7 +90,7 @@
         "max stun Time":5,
         "max damage":5
       },
-      "ultimate":{
+      "ult":{
         "name":"Stun bomb",
         "desc":"deals moderat damage to invaders in the radius."
      }
@@ -103,7 +103,7 @@
         "max radius":170,
         "phase out":0.5
       },
-      "ultimate":{
+      "ult":{
         "name":"Phase out",
         "desc":"Phases the ship out for half a second when they exit the field"
 
@@ -117,7 +117,7 @@
         "laser beams":10,
         "efficiency":300
       },
-      "ultimate":{
+      "ult":{
         "name":"MIRV defense",
         "desc":"MIRVs are easier to get rid of"
       }
@@ -129,7 +129,7 @@
         "max radius":500,
         "max damage":100
       },
-      "ultimate":{
+      "ult":{
         "name":"Omnislash",
         "desc":"Small buff to stats. Any special effect has yet go be determined."
       }
@@ -142,7 +142,7 @@
         "max radius":170,
         "phase out":0.5
       },
-      "ultimate":{
+      "ult":{
         "name":"Phase out",
         "desc":"Phases the ship out for half a second hen they exit the field"
       }

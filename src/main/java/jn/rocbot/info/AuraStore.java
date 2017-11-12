@@ -38,7 +38,7 @@ public class AuraStore {
 
                 HashMap<String, String> ultimatePropertiesList = new HashMap<>();
 
-                JsonObject ultimateProperties = jsonaura.getAsJsonObject("ultimate");
+                JsonObject ultimateProperties = jsonaura.getAsJsonObject("ult");
 
                 ultimateProperties.keySet().forEach((String key) -> {
                     ultimatePropertiesList.put(
@@ -52,7 +52,7 @@ public class AuraStore {
 
                 AURAS.add(new Aura(
                         jsonaura.get("name").getAsString(),
-                        jsonaura.get("description").getAsString(),
+                        jsonaura.get("desc").getAsString(),
                         ultimatePropertiesList.get("name"),
                         propertiesList,
                         ultimatePropertiesList
