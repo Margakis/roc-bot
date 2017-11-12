@@ -45,7 +45,7 @@ public class Bot extends ListenerAdapter {
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
             handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
-        }else {
+        } else {
             if(!event.getAuthor().isBot()) {
                 String raw = event.getMessage().getContent().toLowerCase();
                 if (raw.contains("name the bot")) {
@@ -65,6 +65,7 @@ public class Bot extends ListenerAdapter {
     @Override
     public void onReady(ReadyEvent event){
         Main.log(INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
+        Main.log(INFO, "Log variables; DEBUG: " + Main.DEBUG + ", VERBOSE: " + Main.VERBOSE);
         Main.log(INFO, "Found " + event.getJDA().getGuilds().size() + " guilds");
 
         for (Guild g : event.getJDA().getGuilds()) {
