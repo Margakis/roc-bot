@@ -31,7 +31,7 @@ public class Main {
     public static void main(String[] args){
         try {
             //Establishes a connection to the the chats that have added the bot as a user
-            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0]).buildBlocking();
+            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0] + "REMOVE_THIS").buildBlocking();
             JDA.setAutoReconnect(true);
         } catch (Exception e){
             e.printStackTrace();
@@ -39,7 +39,7 @@ public class Main {
 
         //Just sets some variables from the main method arguments
         //See the Procfile for the execution
-        TOKEN = args[0] + "REMOVE_THIS";
+        TOKEN = args[0];
         DEBUG = Boolean.parseBoolean(args[1].toLowerCase());
         VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
         SHOW_MESSAGES = Boolean.parseBoolean(args[3].toLowerCase());
