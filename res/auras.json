@@ -127,15 +127,14 @@
       }
     },
     {
-      "name":"Chrono Field",
+      "name":"Barrier",
       "properties":{
-        "max duration":5,
-        "max radius":170,
-        "phase out":0.5
+        "max radius":450,
+        "barrier strength":200%
       },
       "ultimate":{
-        "name":"Phase out",
-        "description":"Phases the ship out for half a second hen they exit the field"
+        "name":"Inner lining",
+        "description":"Creates a secondary barrier inside the primary barrier with it's own health pool"
       }
 
     }
