@@ -47,29 +47,31 @@ public class Bot extends ListenerAdapter {
      */
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
-        if(Main.SHOW_MESSAGES){
-            vlog("MessageRecieved!: "+event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
-        }
-        //Checks if the message starts with ! and if the sender is not a bot
-        if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
-            dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
-            handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
+        if(event.getTextChannel().getId() == "378546862627749908") {
+            if (Main.SHOW_MESSAGES) {
+                vlog("MessageRecieved!: " + event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " + event.getMessage().getAuthor().isBot());
+            }
+            //Checks if the message starts with ! and if the sender is not a bot
+            if (event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()) {
+                dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
+                handleCommand(PARSER.parse(event.getMessage().getContent().toLowerCase(), event));
 
-        } else {
-            if(!event.getAuthor().isBot()) {
-                String raw = event.getMessage().getContent().toLowerCase();
+            } else {
+                if (!event.getAuthor().isBot()) {
+                    String raw = event.getMessage().getContent().toLowerCase();
 
-                //Some special cases -----------------------------------------------------
+                    //Some special cases -----------------------------------------------------
 
-                if (raw.contains("name the bot")) {
-                    event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
-                } else if (raw.contains("thanks bot")) {
-                    String str = "";
+                    if (raw.contains("name the bot")) {
+                        event.getTextChannel().sendMessage("No " + Emojis.EL).complete();
+                    } else if (raw.contains("thanks bot")) {
+                        String str = "";
 
-                    if (r.nextInt(10) == 1) str = " Glad to be of use";
-                    event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
-                } else if (raw.contains("best") && raw.contains("game")) {
-                    event.getTextChannel().sendMessage("The best game is **Phoenix 2**! " + Emojis.EL).complete();
+                        if (r.nextInt(10) == 1) str = " Glad to be of use";
+                        event.getTextChannel().sendMessage("No problem! ^^" + str).complete();
+                    } else if (raw.contains("best") && raw.contains("game")) {
+                        event.getTextChannel().sendMessage("The best game is **Phoenix 2**! " + Emojis.EL).complete();
+                    }
                 }
             }
         }
