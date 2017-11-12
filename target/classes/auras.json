@@ -1,0 +1,94 @@
+{
+  "auras":[
+    {
+      "name":"Vorpal lance",
+      "properites": {
+        "damage": 31.25,
+        "count": 4
+      },
+      "ultimate": {
+        "name": "Vorpal wake",
+        "description": "Destroys bullets in its path"
+      }
+    },
+
+    {
+      "name":"Laser Storm",
+      "properties": {
+        "laser moons":5,
+        "max duration":4.5,
+        "max damage":112,
+        "max radius:500"
+      },
+      "ultimate": {
+        "name":"Laser Moon Mk.II",
+        "description":"Laser moons shoot two lasers,dealing extra damage"
+
+      }
+    },
+
+    {
+      "name":"Missile swarm",
+      "properties":{
+        "missiles":46,
+        "max damage":138,
+        "homing capability":"Perfect",
+        "max radius":450
+      },
+      "ultimate": {
+        "name":"Advanced targeting",
+        "description":"Missiles will change targets if their current one is destroyed"      
+      }
+    }
+    
+    {
+      "name": "Ion cannon",
+      "properties":{
+        "stun time":4,
+        "max count":6
+      },
+      "ultimate":{
+        "name":"EMP bomb",
+        "description":"Deals moderate damage in a moderate radius"                  
+      }
+    },
+    
+    {
+      "name":"Bullet EMP",
+      "properties": {
+        "max radius":450
+      },
+      "ultimate":{
+        "name":"Reset Stun",
+        "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
+      }
+    }
+    
+    {
+      "name":"Phalanx",
+      "properties":{
+        "phalanx strength":150,
+        "counters":6
+      },
+      "ultimate":{
+        "name":"Wide Phalanx",
+        "description":"Makes the Phalanx wider and increases it's durability"
+      }
+    }
+    
+  {
+    "name":"Stun EMP",
+    "properties":{
+      "max radius":450,
+      "max stun Time":5,
+      "max damage":5
+    },
+    "ultimate":{
+      "name":"Stun bomb",
+      "description":"deals moderat damage to invaders in the radius."
+  }
+}
+  
+    
+  ]
+}

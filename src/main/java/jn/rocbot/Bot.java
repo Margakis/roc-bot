@@ -1,6 +1,5 @@
 package jn.rocbot;
 
-import com.sun.xml.internal.bind.v2.runtime.MarshallerImpl;
 import jn.rocbot.commands.Command;
 import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
@@ -67,6 +66,7 @@ public class Bot extends ListenerAdapter {
     public void onReady(ReadyEvent event){
         Main.log(INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
         Main.log(INFO, "Found " + event.getJDA().getGuilds().size() + " guilds");
+
         for (Guild g : event.getJDA().getGuilds()) {
             dlog(g.getName());
         }
