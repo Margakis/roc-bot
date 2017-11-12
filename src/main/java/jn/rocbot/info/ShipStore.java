@@ -16,13 +16,7 @@ import java.util.ArrayList;
 public class ShipStore {
     public static ArrayList<Ship> SHIPS;
 
-    static {
-        AuraStore.init();
-        try {
-            Main.log(Main.LOGTYPE.DEBUG, AuraStore.fromName("Bullet EMP").name);
-        } catch (AuraStore.AuraNotFounException e) {
-            e.printStackTrace();
-        }
+    public static void init(){
         SHIPS = new ArrayList<>();
 
         JsonParser parser = new JsonParser();

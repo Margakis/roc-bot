@@ -1,6 +1,7 @@
 package jn.rocbot;
 
 import jn.rocbot.info.AuraStore;
+import jn.rocbot.info.ShipStore;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDABuilder;
 
@@ -49,7 +50,8 @@ public class Main {
             e.printStackTrace();
         }
 
-        Random r = new Random();
+        AuraStore.init();
+        ShipStore.init(); //Must be kept at bottom!
     }
 
     public enum LOGTYPE {
