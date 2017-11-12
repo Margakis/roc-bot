@@ -11,19 +11,22 @@
         "description": "Destroys bullets in its path"
       }
     },
+
     {
       "name":"Laser Storm",
       "properties": {
         "laser moons":5,
         "max duration":4.5,
         "max damage":112,
-        "max radius":500
+        "max radius:500"
       },
       "ultimate": {
         "name":"Laser Moon Mk.II",
         "description":"Laser moons shoot two lasers,dealing extra damage"
+
       }
     },
+
     {
       "name":"Missile swarm",
       "properties":{
@@ -36,7 +39,8 @@
         "name":"Advanced targeting",
         "description":"Missiles will change targets if their current one is destroyed"      
       }
-    },
+    }
+    
     {
       "name": "Ion cannon",
       "properties":{
@@ -48,6 +52,7 @@
         "description":"Deals moderate damage in a moderate radius"                  
       }
     },
+    
     {
       "name":"Bullet EMP",
       "properties": {
@@ -57,7 +62,8 @@
         "name":"Reset Stun",
         "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
       }
-    },
+    }
+    
     {
       "name":"Phalanx",
       "properties":{
@@ -68,18 +74,49 @@
         "name":"Wide Phalanx",
         "description":"Makes the Phalanx wider and increases it's durability"
       }
-    },
-    {
-      "name":"Stun EMP",
-      "properties":{
-        "max radius":450,
-        "max stun Time":5,
-        "max damage":5
-      },
-      "ultimate":{
-        "name":"Stun bomb",
-        "description":"deals moderat damage to invaders in the radius."
-      }
     }
+    
+  {
+    "name":"Stun EMP",
+    "properties":{
+      "max radius":450,
+      "max stun Time":5,
+      "max damage":5
+    },
+    "ultimate":{
+      "name":"Stun bomb",
+      "description":"deals moderat damage to invaders in the radius."
+   }
+  }
+    
+  {"name":"Chrono Field",
+    "properties":{
+      "max duration":5,
+      "max radius":170,
+      "phase out":0.5
+    },
+    "ultimate":{
+      "name":"Phase out",
+      "description":"Phases the ship out for half a second when they exit the field"
+    
+    }
+  }
+    
+  {
+    "name":"Point Defence",
+    "properties":{
+      "radies":410,
+      "laser beams":10,
+      "efficiency":300%
+    },
+    "ultimate":{
+      "name":"MIRV defense",
+      "description":"MIRVs are easier to get rid of"
+    
+    }
+  }
+    
+  
+    
   ]
 }
