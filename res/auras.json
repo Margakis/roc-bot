@@ -135,16 +135,15 @@
       }
     },
     {
-      "name":"Chrono Field",
-      "desc":"",
+      "name":"Barrir",
+      "desc":"erects a circular barrier that absorbs enemy fire",
       "properties":{
-        "max duration":5,
-        "max radius":170,
-        "phase out":0.5
+        "max radius":450,
+        "Barrier Strength"200%
       },
       "ult":{
-        "name":"Phase out",
-        "desc":"Phases the ship out for half a second hen they exit the field"
+        "name":"Inner lining",
+        "desc":"Created a secondary barrier inside the primary one to absorb enemy fire inside the barrier"
       }
     }
   ]
