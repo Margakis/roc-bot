@@ -29,14 +29,6 @@ public class Main {
 
     //requires the arguments String Token, boolean Debug, boolean Verbose
     public static void main(String[] args){
-        try {
-            //Establishes a connection to the the chats that have added the bot as a user
-            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0]).buildBlocking();
-            JDA.setAutoReconnect(true);
-        } catch (Exception e){
-            e.printStackTrace();
-        }
-
         //Just sets some variables from the main method arguments
         //See the Procfile for the execution
         TOKEN = args[0];
@@ -44,7 +36,15 @@ public class Main {
         VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
         SHOW_MESSAGES = Boolean.parseBoolean(args[3].toLowerCase());
 
-        ARGUMENTS = args;
+        ARGUMENTS = args; //For testing
+
+        try {
+            //Establishes a connection to the the chats that have added the bot as a user
+            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0]).buildBlocking();
+            JDA.setAutoReconnect(true);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     public enum LOGTYPE {
