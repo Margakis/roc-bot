@@ -107,11 +107,13 @@
     "properties":{
       "radies":410,
       "laser beams":10,
-      "efficiency":300%
+      "efficiency":300
     },
     "ultimate":{
       "name":"MIRV defense",
       "description":"MIRVs are easier to get rid of"   
+    }
+  }
     {
       "name":"Stun EMP",
       "properties":{
