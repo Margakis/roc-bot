@@ -21,7 +21,7 @@
         "max radius:500"
       },
       "ultimate": {
-        "name":"Laser Moon Mk.II"
+        "name":"Laser Moon Mk.II",
         "description":"Laser moons shoot two lasers,dealing extra damage"
 
       }
@@ -42,7 +42,7 @@
     }
     
     {
-      "name":"Ion cannon",
+      "name": "Ion cannon",
       "properties":{
         "stun time":4,
         "max count":6
@@ -55,26 +55,26 @@
     
     {
       "name":"Bullet EMP",
-      "properties":{
-      "max radius":450
-    },
-    "ultimate":{
-      "name":"Reset Stun",
-      "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
+      "properties": {
+        "max radius":450
+      },
+      "ultimate":{
+        "name":"Reset Stun",
+        "description":"stuns enemies for a short time to reset thier turrets,useful against spinners"
+      }
     }
-  }
     
-  {
-    "name":"Phalanx",
-    "properties":{
-    "phalanx strength":150,
-    "counters":6
-    },
-    "ultimate":{
-    "name":"Wide Phalanx",
-    "description":"Makes the Phalanx wider and increases it's durability"
-  }
-}
+    {
+      "name":"Phalanx",
+      "properties":{
+        "phalanx strength":150,
+        "counters":6
+      },
+      "ultimate":{
+        "name":"Wide Phalanx",
+        "description":"Makes the Phalanx wider and increases it's durability"
+      }
+    }
     
   {
     "name":"Stun EMP",
