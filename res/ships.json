@@ -7,7 +7,7 @@
       "name": "NC-150", "weapon": "Plasma cannon", "aura": "Stun EMP", "zen": "Personal shield", "r":1
     },
     {
-      "name": "Tar'cah", "weapon": "Storm Blaster", "aura": "Point Defence", "zen": "Kappa Drive", "r":1
+      "name": "Tar'cah", "weapon": "Storm Blaster", "aura": "Point defense", "zen": "Kappa Drive", "r":1
     },
     {
       "name": "Veil", "weapon": "Fusion Laser", "aura": "Bullet EMP", "zen": "Mega bomb", "r":1
@@ -46,7 +46,7 @@
       "name": "Kada Veni", "weapon": "Pulse battery", "aura": "Barrier", "zen": "Mega bomb", "r":1
     },
     {
-      "name": "Wrackr", "weapon": "Seismic blaster", "aura": "Point defence", "zen": "Mega bomb", "r":1
+      "name": "Wrackr", "weapon": "Seismic blaster", "aura": "Point defense", "zen": "Mega bomb", "r":1
     },
     {
       "name": "Trireme", "weapon": "Burst pulsar", "aura": "Missile swarm", "zen": "Teleport", "r":3
@@ -82,7 +82,7 @@
       "name": "Ogon", "weapon": "Photon array", "aura": "Laser storm", "zen": "Kappa drive", "r":1
     },
     {
-      "name": "Vuxine", "weapon": "Vortex launcher", "aura": "Point defence", "zen": "Kappa drive", "r":2
+      "name": "Vuxine", "weapon": "Vortex launcher", "aura": "Point defense", "zen": "Kappa drive", "r":2
     },
     {
       "name": "Photurius", "weapon": "Photon charge", "aura": "Stun EMP", "zen": "Mega laser", "r":2
@@ -124,7 +124,7 @@
       "name": "Vani-Vith", "weapon": "Spark fusor", "aura": "Vorpal lance", "zen": "Teleport", "r":2
     },
     {
-      "name": "Zephyr", "weapon": "Photon rails", "aura": "Point defence", "zen": "Kappa drive", "r":1
+      "name": "Zephyr", "weapon": "Photon rails", "aura": "Point defense", "zen": "Kappa drive", "r":1
     },
     {
       "name": "Baqlor", "weapon": "Serrator laser", "aura": "Chrono field", "zen": "Mega bomb", "r":3
@@ -157,7 +157,7 @@
       "name": "Valkyrie", "weapon": "Tachyon projector", "aura": "Phalanx", "zen": "Mega bomb", "r":1
     },
     {
-      "name": "Proteus", "weapon": "Photon detonator", "aura": "Point defence", "zen": "Mega laser", "r":2
+      "name": "Proteus", "weapon": "Photon detonator", "aura": "Point defense", "zen": "Mega laser", "r":2
     },
     {
       "name": "Yigothu", "weapon": "Zatha probes", "aura": "Chrono field", "zen": "Reflex EMP", "r":3

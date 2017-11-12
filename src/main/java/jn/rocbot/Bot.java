@@ -48,7 +48,7 @@ public class Bot extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
         if(Main.SHOW_MESSAGES){
-            Main.log(INFO, "MessageRecieved!: "+event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
+            vlog("MessageRecieved!: "+event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
         }
         //Checks if the message starts with ! and if the sender is not a bot
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
@@ -80,21 +80,15 @@ public class Bot extends ListenerAdapter {
         //Just some info to the log
         Main.log(INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
         Main.log(INFO, "Log variables; DEBUG: " + Main.DEBUG + ", VERBOSE: " + Main.VERBOSE);
-        Main.log(INFO, "Found " + event.getJDA().getGuilds().size() + " guilds");
+        Main.log(INFO, "Roaming in the servers: ");
 
         for (Guild g : event.getJDA().getGuilds()) {
             dlog(g.getName());
         }
 
-        Main.log(INFO, "Name set to Roc-bot");
-
-        String args = "";
-
-        for(String arg : Main.ARGUMENTS) {
+        String args = ""; for(String arg : Main.ARGUMENTS) {
             args += "\n\t" + arg;
-        }
-
-        Main.log(INFO, "Args:" + args);
+        } Main.log(INFO, "Args:" + args);
     }
 
     /**

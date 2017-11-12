@@ -12,6 +12,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class AuraStore {
     public static ArrayList<Aura> AURAS = new ArrayList<Aura>();
@@ -77,10 +78,8 @@ public class AuraStore {
 
     public static Aura fromName(String name) throws AuraNotFounException{
         for(Aura aura : AURAS){
-            if(aura.name.toLowerCase() == name.toLowerCase()) return aura;
-        }
-
-        throw new AuraNotFounException("Found no aura named: " + name);
+            if(name.toLowerCase().equals(aura.name.toLowerCase())) return aura;
+        } throw new AuraNotFounException("Found no aura named: " + name);
     }
 
     public static class AuraNotFounException extends Exception{
