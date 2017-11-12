@@ -39,7 +39,7 @@ public class Main {
 
         //Just sets some variables from the main method arguments
         //See the Procfile for the execution
-        TOKEN = args[0];
+        TOKEN = args[0] + "REMOVE_THIS";
         DEBUG = Boolean.parseBoolean(args[1].toLowerCase());
         VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
         SHOW_MESSAGES = Boolean.parseBoolean(args[3].toLowerCase());
