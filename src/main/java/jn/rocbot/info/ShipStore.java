@@ -13,11 +13,13 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class ShipStore {
-    public static ArrayList<Ship> SHIPS = new ArrayList<>();
+    public static ArrayList<Ship> SHIPS;
 
     static {
         AuraStore.init();
-        
+
+        SHIPS = new ArrayList<>();
+
         JsonParser parser = new JsonParser();
 
         try {
