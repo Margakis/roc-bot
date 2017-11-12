@@ -19,10 +19,13 @@ public class Main {
     //</editor-fold>
     public static boolean DEBUG;
     public static boolean VERBOSE;
+    public static boolean SHOW_MESSAGES;
 
     public static String TOKEN;
 
     public static net.dv8tion.jda.core.JDA JDA;
+
+    public static String[] ARGUMENTS;
 
     //requires the arguments String Token, boolean Debug, boolean Verbose
     public static void main(String[] args){
@@ -39,13 +42,16 @@ public class Main {
         TOKEN = args[0];
         DEBUG = Boolean.parseBoolean(args[1].toLowerCase());
         VERBOSE = Boolean.parseBoolean(args[2].toLowerCase());
+        SHOW_MESSAGES = Boolean.parseBoolean(args[3].toLowerCase());
+
+        ARGUMENTS = args;
     }
 
     public enum LOGTYPE {
         INFO,
         VERBOSE,
         ERROR,
-        DEBUG;
+        DEBUG
     }
 
     public static void log(LOGTYPE type, String message){

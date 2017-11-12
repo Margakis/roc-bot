@@ -13,6 +13,8 @@ import java.util.HashMap;
 import java.util.Random;
 
 import static jn.rocbot.Main.LOGTYPE.INFO;
+import static jn.rocbot.Main.LOGTYPE.VERBOSE;
+
 import jn.rocbot.RocParser.CommandContainer;
 
 public class Bot extends ListenerAdapter {
@@ -43,9 +45,9 @@ public class Bot extends ListenerAdapter {
      */
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
-        vlog("MessageRecieved!: "+event.getMessage().getContent()
-                + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
-
+        if(Main.SHOW_MESSAGES){
+            Main.log(INFO, "MessageRecieved!: "+event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " +event.getMessage().getAuthor().isBot());
+        }
         //Checks if the message starts with ! and if the sender is not a bot
         if(event.getMessage().getContent().startsWith("!") && !event.getMessage().getAuthor().isBot()){
             dlog("Recieved message starting with \"!\": " + event.getMessage().getContent());
@@ -83,6 +85,8 @@ public class Bot extends ListenerAdapter {
         }
 
         Main.log(INFO, "Name set to Roc-bot");
+
+        Main.log(INFO, String.valueOf(Main.ARGUMENTS));
     }
 
     /**
