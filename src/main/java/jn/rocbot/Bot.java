@@ -47,7 +47,7 @@ public class Bot extends ListenerAdapter {
      */
     @Override
     public void onMessageReceived(MessageReceivedEvent event){
-        if(event.getTextChannel().getId() == "378546862627749908") {
+        if(event.getTextChannel().getIdLong() == 378546862627749908L) {
             if (Main.SHOW_MESSAGES) {
                 vlog("MessageRecieved!: " + event.getMessage().getContent() + "\nFrom user: " + event.getMessage().getAuthor().getName() + ", isbot: " + event.getMessage().getAuthor().isBot());
             }
