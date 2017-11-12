@@ -2,7 +2,6 @@ package jn.rocbot.commands;
 
 import jn.rocbot.Main;
 import jn.rocbot.ships.Ship;
-import jn.rocbot.info.ShipNotFoundException;
 import jn.rocbot.info.ShipStore;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 
@@ -58,7 +57,7 @@ public class ShipsCommand implements Command{
                 dlog("");
                 try {
                     event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString());
-                } catch (ShipNotFoundException e) {
+                } catch (ShipStore.ShipNotFoundException e) {
 
                 }
             }

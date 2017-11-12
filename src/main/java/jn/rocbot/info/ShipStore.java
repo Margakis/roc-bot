@@ -5,6 +5,7 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.google.gson.stream.JsonReader;
+import jn.rocbot.ships.RARITY;
 import jn.rocbot.ships.Ship;
 
 import java.io.FileNotFoundException;
@@ -24,9 +25,14 @@ public class ShipStore {
             for (JsonElement jsonelementship : ships){
                 JsonObject jsonship = jsonelementship.getAsJsonObject();
 
-                Ship ship = new Ship(jsonship.get("name").getAsString(), jsonship.get("weapon").getAsString(),
-                        jsonship.get("aura").getAsString(), jsonship.get("zen").getAsString(),
-                        Ship.RARITY.valueOf(Ship.RARITY.fromInt(jsonship.get("r").getAsInt())));
+                Ship ship = null;
+                try {
+                    ship = new Ship(jsonship.get("name").getAsString(), jsonship.get("weapon").getAsString(),
+                            AuraStore.fromName(jsonship.get("aura").getAsString()), jsonship.get("zen").getAsString(),
+                            RARITY.valueOf(RARITY.fromInt(jsonship.get("r").getAsInt())));
+                } catch (AuraStore.AuraNotFounException e) {
+                    e.printStackTrace();
+                }
                 SHIPS.add(ship);
             }
 
@@ -41,5 +47,12 @@ public class ShipStore {
         }
 
         throw new ShipNotFoundException("Found no ship with name: " + shipname);
+    }
+
+    public static class ShipNotFoundException extends Exception{
+
+        public ShipNotFoundException(String s) {
+            super(s);
+        }
     }
 }
