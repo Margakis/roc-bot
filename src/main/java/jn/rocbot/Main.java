@@ -31,7 +31,7 @@ public class Main {
     public static void main(String[] args){
         try {
             //Establishes a connection to the the chats that have added the bot as a user
-            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0] + "REMOVE_THIS").buildBlocking();
+            JDA = new JDABuilder(AccountType.BOT).addEventListener(new Bot()).setToken(args[0]).buildBlocking();
             JDA.setAutoReconnect(true);
         } catch (Exception e){
             e.printStackTrace();
