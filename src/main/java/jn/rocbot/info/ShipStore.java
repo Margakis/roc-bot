@@ -28,16 +28,16 @@ public class ShipStore {
             for (JsonElement jsonelementship : ships){
                 JsonObject jsonship = jsonelementship.getAsJsonObject();
 
-                Ship ship = null;
                 try {
-                    ship = new Ship(jsonship.get("name").getAsString(), jsonship.get("weapon").getAsString(),
+                    Ship ship = new Ship(jsonship.get("name").getAsString(), jsonship.get("weapon").getAsString(),
                             AuraStore.fromName(jsonship.get("aura").getAsString()),
                             jsonship.get("zen").getAsString(),
                             RARITY.valueOf(RARITY.fromInt(jsonship.get("r").getAsInt())));
+
+                    SHIPS.add(ship);
                 } catch (AuraStore.AuraNotFounException e) {
                     e.printStackTrace();
                 }
-                SHIPS.add(ship);
             }
 
         } catch (FileNotFoundException e) {
