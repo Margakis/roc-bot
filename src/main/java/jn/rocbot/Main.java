@@ -51,6 +51,7 @@ public class Main {
         }
 
         AuraStore.init();
+        AuraStore.auraStoreState();
         ShipStore.init(); //Must be kept at bottom!
     }
 

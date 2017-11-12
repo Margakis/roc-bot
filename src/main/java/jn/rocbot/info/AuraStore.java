@@ -66,7 +66,13 @@ public class AuraStore {
     }
 
     public static String auraStoreState(){
-        return "";
+        String state = "The aurastore currently contaions the auras:";
+
+        for (Aura aura : AURAS){
+            state += "\n\t" + aura.name;
+        }
+
+        return state;
     }
 
     public static Aura fromName(String name) throws AuraNotFounException{
