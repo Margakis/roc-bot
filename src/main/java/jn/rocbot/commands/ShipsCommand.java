@@ -51,12 +51,9 @@ public class ShipsCommand implements Command{
                     int ship = r.nextInt(ShipStore.SHIPS.size());
                     event.getTextChannel().sendMessage("**" + ShipStore.SHIPS.get(ship).name + "** " + ShipStore.SHIPS.get(ship).rarity.toEmoji()).complete();
                 }
-            }
-
-            else if(Ship.isShip(args[0])){
-                dlog("");
+            } else if(Ship.isShip(args[0])){
                 try {
-                    event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString());
+                    event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString()).complete();
                 } catch (ShipStore.ShipNotFoundException e) {
 
                 }
