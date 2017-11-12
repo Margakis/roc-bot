@@ -86,7 +86,11 @@ public class Bot extends ListenerAdapter {
 
         Main.log(INFO, "Name set to Roc-bot");
 
-        Main.log(INFO, String.valueOf(Main.ARGUMENTS));
+        String args = "";
+
+        for(String arg : Main.ARGUMENTS) args += "\n" + arg
+
+        Main.log(INFO, args);
     }
 
     /**
