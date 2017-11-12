@@ -62,6 +62,7 @@ public class Bot extends ListenerAdapter {
     @Override
     public void onReady(ReadyEvent event){
         Main.log(Main.LOGTYPE.INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
+        Main.log(Main.LOGTYPE.INFO, "Name set to Roc-bot");
         Main.JDA.getSelfUser().getManager().setName("Roc-bot").complete();
     }
 
