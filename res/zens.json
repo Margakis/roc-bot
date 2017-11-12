@@ -4,8 +4,8 @@
       "name":"Kappa drive",
       "description":"Attracts and generates energy particles.",
       "properties":{
-        "attraction power":214%,
-        "generator efficiency":157%
+        "attraction power":214,
+        "generator efficiency":157
         
       },
       "ultimate":{
@@ -56,7 +56,7 @@
         "charge duration":1.9,
         "charge time increase":0.25,
         "charge time recovery":"very fast",
-        "beam width":150%
+        "beam width":150
 
       },
       "ultimate":{
@@ -103,7 +103,7 @@
       "properties":{
         "target tracking":"fast",
         "damage":210,
-        "duration"6,
+        "duration":6,
         "charging duration":1,
         "charge time increase":17,
         "charge time recovery":"average"
