@@ -1,5 +1,6 @@
 package jn.rocbot;
 
+import com.sun.xml.internal.bind.v2.runtime.MarshallerImpl;
 import jn.rocbot.commands.Command;
 import jn.rocbot.commands.ShipsCommand;
 import jn.rocbot.commands.SourceCommand;
@@ -12,6 +13,8 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
 import java.util.HashMap;
 import java.util.Random;
+
+import static jn.rocbot.Main.LOGTYPE.INFO;
 
 public class Bot extends ListenerAdapter {
     private final Random r = new Random();
@@ -62,11 +65,13 @@ public class Bot extends ListenerAdapter {
 
     @Override
     public void onReady(ReadyEvent event){
-        Main.log(Main.LOGTYPE.INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
+        Main.log(INFO, "Logged in as " + event.getJDA().getSelfUser().getName());
+        Main.log(INFO, "Found " + event.getJDA().getGuilds().size() + " guilds");
         for (Guild g : event.getJDA().getGuilds()) {
             dlog(g.getName());
         }
-        Main.log(Main.LOGTYPE.INFO, "Name set to Roc-bot");
+
+        Main.log(INFO, "Name set to Roc-bot");
     }
 
     private void handleCommand(RocParser.CommandContainer cmd){
