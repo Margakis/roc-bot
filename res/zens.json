@@ -1,5 +1,26 @@
 {
   "zens":[
+    {
+      "name":"",
+      "description":"",
+      "properties":{
+        
+      },
+      "ultimate":{
+        "name":"",
+        "description":""
+      }
+    },
+    {
+      "name":"",
+      "description":"",
+      "properties":{
 
+      },
+      "ultimate":{
+        "name":"",
+        "description":""
+      }
+    }
   ]
 }

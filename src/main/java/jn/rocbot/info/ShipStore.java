@@ -48,9 +48,7 @@ public class ShipStore {
 
         throw new ShipNotFoundException("Found no ship with name: " + shipname);
     }
-
     public static class ShipNotFoundException extends Exception{
-
         public ShipNotFoundException(String s) {
             super(s);
         }
