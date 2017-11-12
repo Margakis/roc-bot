@@ -3,7 +3,7 @@
     {
       "name":"Vorpal lance",
       "desc":"",
-      "properites": {
+      "properties": {
         "damage": 31.25,
         "count": 4
       },
@@ -25,6 +25,7 @@
       "ultimate": {
         "name":"Laser Moon Mk.II",
         "desc":"Laser moons shoot two lasers,dealing extra damage"
+
       }
     },
 
