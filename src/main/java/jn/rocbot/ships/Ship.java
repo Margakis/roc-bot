@@ -24,7 +24,7 @@ public class Ship implements Formatter{
 
     public static boolean isShip(String name){
         try {
-            return ShipStore.getShip(name) != null;
+            return ShipStore.getShip(name.toLowerCase()) != null;
         } catch (ShipStore.ShipNotFoundException e) {
             return false;
         }

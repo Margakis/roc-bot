@@ -84,6 +84,8 @@ public class Bot extends ListenerAdapter {
         Main.log(INFO, "Log variables; DEBUG: " + Main.DEBUG + ", VERBOSE: " + Main.VERBOSE);
         Main.log(INFO, "Roaming in the servers: ");
 
+        event.getJDA().getGuildById(325430508379176961L).getTextChannelById(378546862627749908L).sendMessage("I have rebooted").complete();
+
         for (Guild g : event.getJDA().getGuilds()) {
             dlog(g.getName());
         }

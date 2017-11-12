@@ -52,10 +52,12 @@ public class ShipsCommand implements Command{
                     event.getTextChannel().sendMessage("**" + ShipStore.SHIPS.get(ship).name + "** " + ShipStore.SHIPS.get(ship).rarity.toEmoji()).complete();
                 }
             } else if(Ship.isShip(args[0])){
-                try {
-                    event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString()).complete();
-                } catch (ShipStore.ShipNotFoundException e) {
-
+                if(args[1].toLowerCase() == "info") {
+                    try {
+                        event.getTextChannel().sendMessage(ShipStore.getShip(args[0]).simpleToString()).complete();
+                    } catch (ShipStore.ShipNotFoundException e) {
+                        event.getTextChannel().sendMessage("No ship named: " + args[0]).complete();
+                    }
                 }
             }
         }else{
