@@ -102,7 +102,7 @@
       "desc":"",
       "properties":{
         "max duration":5,
-        "max duration-format":"s"
+        "max duration-format":"s",
         "max radius":170        
       },
       "ult":{
