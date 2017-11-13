@@ -119,7 +119,7 @@
         "radies":410,
         "laser beams":10,
         "efficiency":300,
-        "efficiency-format:"%"
+        "efficiency-format":"%"
       },
       "ult":{
         "name":"MIRV defense",
