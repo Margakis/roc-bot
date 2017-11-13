@@ -144,7 +144,7 @@
       "properties":{
         "max radius":450,
         "Barrier Strength":200,
-        "Barrier Strength-format:"%"
+        "Barrier Strength-format":"%"
       },
       "ult":{
         "name":"Inner lining",
